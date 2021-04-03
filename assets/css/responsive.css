@@ -80,7 +80,7 @@ Version      : 1.0
 		margin: 0px 30px;
 		position: absolute;
 		background-color: #e7aeec;
-		opacity: 0.1;
+		opacity: 0.55;
 		box-shadow: 0.4px 4px 4px 0.4px solid #221024;
 
 	}
@@ -91,7 +91,7 @@ Version      : 1.0
 	}
 	.navbar-nav li a{
 		font-weight: bolder;
-		font-size: 46px;
+		font-size: 16px;
 	}
 	.navbar-nav li i{
 		margin: 20px 10px;
