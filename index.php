@@ -180,7 +180,7 @@
 							<div class="col-lg-7 col-md-10 col-12 mr-auto text-left">
 								<div class="home-single-slide-dec">
 									<h2>Secure & easy way to <br> buy & sell bitcoin</h2>
-									<p class="text-capitalize">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+									<p class="text-capitalize">Gold is a great way to preserve wealth, but it is hard to move around. You do need some kind of alternative and Bitcoin fits the bill. And that is why we by and sell Bitcoin</p>
 									<div class="home-single-slide-button">
 										<a href="#" class="btn-style btn-filled">Get Started </a>
 										<a href="#" class="btn-style btn-border">Download PDF</a>
@@ -200,11 +200,11 @@
 						<div class="row">
 							<div class="col-lg-7 col-md-10 col-12 mr-auto text-left">
 								<div class="home-single-slide-dec">
-									<h2>bitcoin & ethereum transper you can trust </h2>
-									<p class="text-capitalize">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+									<h2>Bitcoin & ethereum transper you can trust </h2>
+									<p class="text-capitalize">Bitcoin  And Ethereum is a technological tour. And which makes a buyer a bigger coin owner</p>
 									<div class="home-single-slide-button">
-										<a href="#" class="btn-style btn-border">Get quote</a>
-										<a href="#" class="btn-style btn-filled">Read More</a>
+										<a href="#" class="btn-style btn-border">Get Started</a>
+										<a href="#" class="btn-style btn-filled">Download PDF</a>
 									</div>
 								</div>
 							</div>
@@ -221,10 +221,10 @@
 							<div class="col-lg-7 col-md-10 col-12 mr-auto text-left">
 								<div class="home-single-slide-dec">
 									<h2>Invest & double your desire bitcoin</h2>
-									<p class="text-capitalize">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+									<p class="text-capitalize">We help mine in a great way no stress, No Money lost, No Bank changes Pay directly with your Coin Wallet.</p>
 									<div class="home-single-slide-button">
 										<a href="#" class="btn-style btn-filled">Contact Us</a>
-										<a href="#" class="btn-style btn-border">View More</a>
+										<a href="#" class="btn-style btn-border">Download PDF</a>
 									</div>
 								</div>
 							</div>
@@ -266,7 +266,7 @@
 								<h5>Bitcoin Transition</h5>
 							</div>
 							<div class="single-about-dec">
-								<p>Lorem ipsum dolor sit consectetur adipiscing elit sed do.</p>
+								<p>Another way of Buying and selling Gold Making the best profit.</p>
 							</div>
 						</div>
 					</div>
@@ -287,7 +287,7 @@
 								<h5>Coin Buy & Sell</h5>
 							</div>
 							<div class="single-about-dec">
-								<p>Lorem ipsum dolor sit consectetur adipiscing elit sed do.</p>
+								<p>Being the best in the room of buying and selling coin in indispensible manner.</p>
 							</div>
 						</div>
 					</div>
@@ -308,7 +308,7 @@
 								<h5>Bitcoin & Ethereum</h5>
 							</div>
 							<div class="single-about-dec">
-								<p>Lorem ipsum dolor sit consectetur adipiscing elit sed do.</p>
+								<p>Exchanging your coin for the greater value at the right time.</p>
 							</div>
 						</div>
 					</div>
@@ -329,7 +329,7 @@
 								<h5>Account Security</h5>
 							</div>
 							<div class="single-about-dec">
-								<p>Lorem ipsum dolor sit consectetur adipiscing elit sed do.</p>
+								<p>Be your first security and manage what you invest.</p>
 							</div>
 						</div>
 					</div>
@@ -350,7 +350,7 @@
 								<h5>Cryptocurrency Trading</h5>
 							</div>
 							<div class="single-about-dec">
-								<p>Lorem ipsum dolor sit consectetur adipiscing elit sed do.</p>
+								<p>Trading coin for the greater value by our Specialists.</p>
 							</div>
 						</div>
 					</div>
@@ -371,7 +371,7 @@
 								<h5>Bitcoin Legality</h5>
 							</div>
 							<div class="single-about-dec">
-								<p>Lorem ipsum dolor sit consectetur adipiscing elit sed do.</p>
+								<p>A money transaction system without any charge.</p>
 							</div>
 						</div>
 					</div>
@@ -401,19 +401,19 @@
                     <ul class="accordion-box">
                         <li class="accordion block">
                             <div class="acc-btn">
-                                <div class="icon-outer"><span class="icon icofont icofont-ui-press"></span></div>Why we accept only bitcoin?</div>
+                                <div class="icon-outer"><span class="icon icofont icofont-ui-press"></span></div>Why we accept 	Any Coin?</div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. </p>
+                                    <p>Accepting any aproved coin in the crpto market is great. it helps us to be able to Exchange coins for our customers at any increase. </p>
                                 </div>
                             </div>
                         </li>
                         <li class="accordion block">
                             <div class="acc-btn active">
-                                <div class="icon-outer"><span class="icon icofont icofont-ui-press"></span></div>How can i transfer bitcoin?</div>
+                                <div class="icon-outer"><span class="icon icofont icofont-ui-press"></span></div>How can i transfer bitcoin or any coin?</div>
                             <div class="acc-content current">
                                 <div class="content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
+                                    <p>All you need to do is have a Bitcoin Wallet and sigin up / register with us to own your personnal dashboard and click on <span class="text-success">invest</span> </p>
                                 </div>
                             </div>
                         </li>
@@ -424,7 +424,7 @@
                                 <div class="icon-outer"><span class="icon icofont icofont-ui-press"></span></div>What about the trading with Connext Coin Hub?</div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. </p>
+                                    <p>Trading with us is a great idea providing with No stress and hard time our spcialists helps you do the job <span class="text-success">@Connext</span> </p>
                                 </div>
                             </div>
                         </li>
@@ -435,7 +435,7 @@
                                 <div class="icon-outer"><span class="icon icofont icofont-ui-press"></span></div>what about the investment planing?</div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. </p>
+                                    <p>We have provided a three set of investment planing for individuals and groups depending on the financial capability but each investment comes with average interest. </p>
                                 </div>
                             </div>
                         </li>
@@ -446,7 +446,7 @@
                                 <div class="icon-outer"><span class="icon icofont icofont-ui-press"></span></div>How can i get the price idea?</div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. </p>
+                                    <p>The price idea is displayed in our About Us Page. </p>
                                 </div>
                             </div>
                         </li>
@@ -457,7 +457,7 @@
                                 <div class="icon-outer"><span class="icon icofont icofont-ui-press"></span></div>How can i contact with you?</div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. </p>
+                                    <p>Just click on message icon on the down right hand side or send us a message at contact us page we will respond immidiatley </p>
                                 </div>
                             </div>
                         </li>
