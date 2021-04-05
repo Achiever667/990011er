@@ -95,7 +95,7 @@ if($email == false){
 					<div class="col-lg-5 col-md-3 col-sm-6 col-7 mx-auto pl-0 mb-lg-0 mb-5">
 						<div class="logo">
 							<a href="index.php">
-							   <img class="img-fluid bx-spin" src="assets/img/connext_logo.png" width="80" alt=""> Connext Coin Hub
+							   <img class="img-fluid bx-spin" src="assets/img/connext_logo.png" width="80" alt=""> connext coin
 							</a>
 						</div>
 					</div>
@@ -131,7 +131,7 @@ if($email == false){
 				<div class="auto-container">
 					<div class="logo__small">
 						<a href="index.php">
-						   <img class="img-fluid bx-spin" src="assets/img/connext_logo.png" width="80" alt=""> Connext Coin Hub
+						   <img class="img-fluid bx-spin" src="assets/img/connext_logo.png" width="80" alt=""> connext coin
 						</a>
 					</div>
 					<div class="row">
