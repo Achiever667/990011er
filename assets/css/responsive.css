@@ -66,7 +66,7 @@ Version      : 1.0
 	}
 	.mainmenu-area{
 		background: #ba1dc9;
-		/* padding: 10px 5px; */
+		padding: 10px;
 	}
 	/* .top-area{
 		display:none;
@@ -91,12 +91,13 @@ Email: kelechioleh@gmail.com */
 
 	.navbar-nav li{
 		padding: 0px 10px 10px 10px;
-		margin:5px 0px;	
+		margin:15px;	
 		border: none;
 	}
 	.navbar-nav li a{
 		font-weight: bolder;
-		font-size: 16px;
+		font-size: 18px;
+		/* margin: 10px; */
 	}
 	.navbar-nav li i{
 		margin: 20px 10px;
