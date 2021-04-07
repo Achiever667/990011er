@@ -101,7 +101,7 @@ if($email != false && $password != false){
               <a href="user-dashboard.php" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
             </li>
             <li class="dropdown ">
-              <a href="invest.php" class="nav-link"><i data-feather="activity"></i><span>Invest</span></a>
+              <a href="https://commerce.coinbase.com/charges/W3922MVH" class="nav-link"><i data-feather="activity"></i><span>Invest</span></a>
             </li>
          
             <li class="dropdown">

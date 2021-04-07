@@ -484,7 +484,7 @@
 					</div>
 					<div class="promo-content">
 						<h4>Who we are?</h4>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illodrut inventore veritatis et quasi architecto beatae vitae dicta sunt. </p>
+						<p>We are a team of dedicated personnels who have devoted our time in studying and mining of coin for the greater value and profit making. We offer the best improve to our customers who utilizes this great opportunity. </p>
 						<a href="#" class="btn-style btn-filled mt-3">Read More <i class="icofont icofont-caret-right"></i></a>
 						<div class="signature-img float-lg-right float-md-right float-none mt-3"><img src="assets/img/bg/signature.png" class="img-fluid" alt=""></div>
 					</div>	
@@ -518,7 +518,7 @@
 								</div>
 								<div class="single-wcus-text">
 									<h5>Easy Trading</h5>
-									<p>Lorem ipsum dolor sit ametelid consectetur adipiscing elit sedd eiusmod tempor.</p>
+									<p>We make trading easy by co-operating with the most vibrant coin systems. </p>
 								</div>
 							</div>
 						</div>
@@ -530,7 +530,7 @@
 								</div>
 								<div class="single-wcus-text">
 									<h5>Trading Strategy</h5>
-									<p>Lorem ipsum dolor sit ametelid consectetur adipiscing elit sedd eiusmod tempor.</p>
+									<p>Our stratage is great in determing the best signals and delivering the best profit improve.</p>
 								</div>
 							</div>
 						</div>
@@ -542,7 +542,7 @@
 								</div>
 								<div class="single-wcus-text">
 									<h5>Money Exchange</h5>
-									<p>Lorem ipsum dolor sit ametelid consectetur adipiscing elit sedd eiusmod tempor.</p>
+									<p>You can exchange your coin to your local currency once you get paid .</p>
 								</div>
 							</div>
 						</div>
@@ -554,7 +554,7 @@
 								</div>
 								<div class="single-wcus-text">
 									<h5>Security Ensure</h5>
-									<p>Lorem ipsum dolor sit ametelid consectetur adipiscing elit sedd eiusmod tempor.</p>
+									<p>Our security measures ensures that you do keep your login details best to yourself and your transactions with us is clearly secure.</p>
 								</div>
 							</div>
 						</div>
@@ -566,7 +566,7 @@
 					<div class="single-wcus-promo">
 						<div class="single-wcus-promo-inner">
 							<h3>We are ready to fly with you.</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
+							<p>We agree and ready to go wide with our Customers and our our subscribers.</p>
 							<a href="#" class="btn-style btn-border btn-border-2">Read More</a>
 						</div>
 					</div>
@@ -587,28 +587,28 @@
 						<div class="col-lg-6 col-md-6 col-12 counter-wrapper-inner">
 							<div class="single-counter">
 								<h3 class="timer">56</h3>
-								<p>Bitcoin</p>
+								<p class="text-warning">Bitcoin</p>
 							</div>							
 						</div>
 						<!-- end col -->	 
 						<div class="col-lg-6 col-md-6 col-12 counter-wrapper-inner">
 							<div class="single-counter">
 								<h3 class="timer">95</h3>
-								<p>Wallet</p>
+								<p class="text-warning">Wallet</p>
 							</div>							
 						</div>
 						<!-- end col -->	 
 						<div class="col-lg-6 col-md-6 col-12 counter-wrapper-inner">
 							<div class="single-counter">
 								<h3 class="timer">85</h3>
-								<p>ATM</p>
+								<p class="text-warning">ATM</p>
 							</div>							
 						</div>
 						<!-- end col -->	 
 						<div class="col-lg-6 col-md-6 col-12 counter-wrapper-inner">
 							<div class="single-counter">
 								<h3 class="timer">68</h3>
-								<p>Client</p>
+								<p class="text-warning">Client</p>
 							</div>							
 						</div>
 						<!-- end col -->
@@ -648,7 +648,7 @@
 							</div>
 						</div>
 						<div class="single-service-dec">
-							<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+							<p>As Bitcoin reaches new records, it is also guzzling epic levels of energy and its environmental footprint is on the rise.</p>
 						</div>	
 					</div>							
 				</div>
@@ -667,7 +667,7 @@
 							</div>
 						</div>
 						<div class="single-service-dec">
-							<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+							<p>Findings in the latest BIS survey unveils that central banks are in no hurry to issue a digital version of their currency — assuring us that cash remains a stable lifeline amidst digital falls.</p>
 						</div>	
 					</div>							
 				</div>
@@ -686,7 +686,7 @@
 							</div>
 						</div>
 						<div class="single-service-dec">
-							<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+							<p>One of the best and safest coin system is high in price but offers you the best money exchange.</p>
 						</div>	
 					</div>							
 				</div>
@@ -705,7 +705,7 @@
 							</div>
 						</div>
 						<div class="single-service-dec">
-							<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+							<p>Cryptocurrency trading technology marketing is a puzzle to solve in itself, many companies are using video marketing for their token sales platforms and applications. Bitcoin based payments are powering many companies to offer new and innovative way of solving current problems.</p>
 						</div>	
 					</div>							
 				</div>

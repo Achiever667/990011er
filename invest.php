@@ -113,7 +113,7 @@ if($email != false && $password != false){
               <a href="user-dashboard.php" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
             </li>
             <li class="dropdown ">
-              <a href="invest.php" class="nav-link"><i data-feather="activity"></i><span>Invest</span></a>
+              <a href="#" class="nav-link"><i data-feather="activity"></i><span>Invest</span></a>
             </li>
          
             <li class="dropdown">
@@ -173,6 +173,14 @@ if($email != false && $password != false){
                         <input class="form-control button" type="submit" name="check" value="Invest">
                     </div>
                 </form>
+                <div>
+  <!-- <a class="buy-with-crypto"
+     href="https://commerce.coinbase.com/checkout/2259753c-1bb4-4f78-82f2-1438c60b22bd">
+    Buy with Crypto
+  </a>
+  <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807">
+  </script> -->
+</div>
             </div>
         </div>
     </div>
