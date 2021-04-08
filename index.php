@@ -188,6 +188,9 @@
 
 								</div>
 							</div>
+							<div class="col-lg-7 col-md-10 col-12 ml-auto text-right">
+							<h3 class="ml-auto text-right pd-5 text-white m-3">What we accept <i class="fab fa-btc text-warning m-3 font-20  bx-tada"></i><i class="fab fa-ethereum m-3  bx-tada text-info"></i><i class="fab fa-bitcoin m-3  bx-tada text-success "></i><i class="fas fa-dollar-sign m-3  bx-tada text-light"></i></h3>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -237,9 +240,41 @@
 	<!-- </div> -->
 	</section>
 	<!-- END SLIDER SECTION  -->
-	
+	<style>
+#about li {
+    display:inline;
+    /* width: 160%; */
+    flex-wrap:nowrap;
+    background:#fff;
+    padding:30px 30px;
+    font-size:20px;
+    overflow-y: scroll;
+    color:green;
+    margin:0px 10px;
+}
+#about marquee{
+    /* margin:10px; */
+    /* width:60%; */
+    /* height: 15vh; */
+    /* overflow: scroll; */
+
+
+}
+</style>
 	<!-- START ABOUT SECTION -->
     <section id="about" class="section-padding">
+	<marquee> <?php
+
+$url = "https://bitpay.com/api/rates";
+$json = json_decode(file_get_contents($url));
+$dollar = $btc = 0;
+foreach($json as $obj)
+{
+    echo '<li> 1 Bitcoin = $', $obj->rate, ' ', $obj->name .' ('. $obj->code .') </li>';
+}
+
+?>
+</marquee>
         <div class="container">
 			<div class="row">
 				<div class="col-12 text-center">
