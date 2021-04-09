@@ -188,9 +188,9 @@
 
 								</div>
 							</div>
-							<div class="col-lg-7 col-md-10 col-12 ml-auto text-right">
+							<!-- <div class="col-lg-7 col-md-10 col-12 ml-auto text-right">
 							<h3 class="ml-auto text-right pd-5 text-white m-3">What we accept <i class="fab fa-btc text-warning m-3 font-20  bx-tada"></i><i class="fab fa-ethereum m-3  bx-tada text-info"></i><i class="fab fa-bitcoin m-3  bx-tada text-success "></i><i class="fas fa-dollar-sign m-3  bx-tada text-light"></i></h3>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
@@ -251,6 +251,7 @@
     overflow-y: scroll;
     color:green;
     margin:0px 10px;
+	border-left:1px solid #000;
 }
 #about marquee{
     /* margin:10px; */
@@ -263,6 +264,9 @@
 </style>
 	<!-- START ABOUT SECTION -->
     <section id="about" class="section-padding">
+	<div class="col-lg-7 col-md-10 col-12 ml-auto text-right">
+		<h3 class="ml-auto text-right pd-5 text-purple m-3">What we accept <i class="fab fa-btc text-warning m-3 font-20  bx-tada"></i><i class="fab fa-ethereum m-3  bx-tada text-info"></i><i class="fab fa-bitcoin m-3  bx-tada text-success "></i><i class="fas fa-dollar-sign m-3  bx-tada text-primary"></i></h3>
+							</div>
 	<marquee> <?php
 
 $url = "https://bitpay.com/api/rates";
@@ -785,9 +789,9 @@ foreach($json as $obj)
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Jone Doe</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Jack Melow</h4>
+								<span>Connext Coin Hub, CEO</span>
+								<p>Specialist in Coin Management.</p>
 							</div>	
 						</div>							
 					</div>
@@ -805,9 +809,9 @@ foreach($json as $obj)
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Mark Henry</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Clara Ketty</h4>
+								<span>Connext Coin Hub, CFO</span>
+								<p>Specialist in facilitating .</p>
 							</div>	
 						</div>							
 					</div>
@@ -825,9 +829,9 @@ foreach($json as $obj)
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Bishen Ketty</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Bishen Henry</h4>
+								<span>Connext Coin Hub, Coin Mining Chief</span>
+								<p>Specialists in Bitcon Mining and Exchange.</p>
 							</div>	
 						</div>							
 					</div>
@@ -846,8 +850,8 @@ foreach($json as $obj)
 							</div>
 							<div class="single-team-meta">
 								<h4>Kwasan Rowy</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<span>Coinbase/Connext Coin Hub Ambassador</span>
+								<p>Our Representative.</p>
 							</div>	
 						</div>							
 					</div>
@@ -865,9 +869,9 @@ foreach($json as $obj)
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Jone Doe</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Oxford Gabby</h4>
+								<span>Connext Coin Hub, CTO</span>
+								<p>Our technqical director.</p>
 							</div>	
 						</div>							
 					</div>
@@ -958,6 +962,28 @@ foreach($json as $obj)
 				</div>
 				<!-- end col -->				
 			</div>	
+			<div class="col-lg-12 col-md-5 col-12 mt-4">
+					<div class="cal-convertor">
+						<script>
+							baseUrl = "https://widgets.cryptocompare.com/";
+							var scripts = document.getElementsByTagName("script");
+							var embedder = scripts[ scripts.length - 1 ];
+							var cccTheme = {"General":{"borderColor":"#f7921a","headerText":""},"Form":{"labelFrom":"Put amount:","labelTo":"Get amount:"}};
+							(function (){
+							var appName = encodeURIComponent(window.location.hostname);
+							if(appName==""){appName="local";}
+							var s = document.createElement("script");
+							s.type = "text/javascript";
+							s.async = true;
+							var theUrl = baseUrl+'serve/v1/coin/converter?fsym=BTC&tsyms=USD,EUR,CNY,GBP';
+							s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+							embedder.parentNode.appendChild(s);
+							})();
+						</script>
+					</div>
+					<div class="col-5 ml-auto text-center">
+						<a href="login-user.php" class="mt-3 btn-style btn-filled btn-filled-2">Buy Now!</a>			
+					</div>
         </div>
         <!--- END CONTAINER -->
     </section>
@@ -984,7 +1010,7 @@ foreach($json as $obj)
 						</div>
 						<div class="single-wprocess-text">
 							<h5>Trading Strategy</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+							<p>Making a big plan ahead of trading career is a nice idea and good one step ahead.</p>
 						</div>
 					</div>
 				</div>
@@ -996,7 +1022,7 @@ foreach($json as $obj)
 						</div>
 						<div class="single-wprocess-text">
 							<h5>Group Planing</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+							<p>How about making a group planing being the master mind of every successful group business. you do earn a bigger percentage. Take the step.</p>
 						</div>
 					</div>
 				</div>
@@ -1008,7 +1034,7 @@ foreach($json as $obj)
 						</div>
 						<div class="single-wprocess-text">
 							<h5>Final Success</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+							<p>Coming to become what you have dreamt of is very close when you trade with us.</p>
 						</div>
 					</div>
 				</div>
@@ -1055,6 +1081,7 @@ foreach($json as $obj)
 					<!-- end section title -->
 					<div class="home-p-form-wrapper">
 						<div class="home-p-form">
+						<h3>send us a mail and get our step-by-step procedure</h3>
 							<form action="#">
 								<div class="row">
 									<div class="form-group col-lg-6 mb-3">
@@ -1106,20 +1133,20 @@ foreach($json as $obj)
 				<div class="col-lg-4 col-md-4 col-12 mb-lg-0 mb-md-0 mb-5">
 					<div class="single-pricing">
 						<div class="single-pricing-head text-center">
-							<span class="price"><sup>$</sup><span class="price-digit">1000</span>- $4999</span>
-							<h5>Basic</h5>
+							<span class="price"><sup>$</sup><span class="price-digit">100</span>- $2999</span>
+							<h5>Basic Plan</h5>
 						</div>
 						<div class="single-pricing-body">
 							<div class="single-pricing-list">
 								<ul>
 									<li><i class="icofont icofont-check-alt"></i> Free Support</li>
-									<li><i class="icofont icofont-check-alt"></i> 5% Interest</li>
+									<li><i class="icofont icofont-check-alt"></i> 03% Interest</li>
 
 								</ul>
 							</div>
 						</div>
 						<div class="single-pricing-button">
-							<a href="#" class="mt-3 d-block text-center rounded-0">Buy It Now</a>
+							<a href="login-user.php" class="mt-3 d-block text-center rounded-0">Buy It Now</a>
 						</div>	
 					</div>
 				</div>
@@ -1127,20 +1154,20 @@ foreach($json as $obj)
 				<div class="col-lg-4 col-md-4 col-12 mb-lg-0 mb-md-0 mb-5">
 					<div class="single-pricing">
 						<div class="single-pricing-head text-center">
-							<span class="price"><sup>$</sup><span class="price-digit">5000</span>- 9999</span>
-							<h5>Standard</h5>
+							<span class="price"><sup>$</sup><span class="price-digit">3000</span>- 4999</span>
+							<h5>Standard Plan</h5>
 						</div>
 						<div class="single-pricing-body">
 							<div class="single-pricing-list">
 								<ul>
 									<li><i class="icofont icofont-check-alt"></i> Free Support</li>
-									<li><i class="icofont icofont-check-alt"></i> 20% Interest</li>
+									<li><i class="icofont icofont-check-alt"></i> 05% Interest</li>
 
 								</ul>
 							</div>
 						</div>
 						<div class="single-pricing-button">
-							<a href="#" class="mt-3 d-block text-center rounded-0">Buy It Now</a>
+							<a href="login-user.php" class="mt-3 d-block text-center rounded-0">Buy It Now</a>
 						</div>	
 					</div>
 				</div>
@@ -1148,20 +1175,20 @@ foreach($json as $obj)
 				<div class="col-lg-4 col-md-4 col-12">
 					<div class="single-pricing">
 						<div class="single-pricing-head text-center">
-							<span class="price"><sup>$</sup><span class="price-digit">10000</span></span>
-							<h5>Unlimited</h5>
+							<span class="price"><sup>$</sup><span class="price-digit">50000</span></span>
+							<h5>Unlimited Plan</h5>
 						</div>
 						<div class="single-pricing-body">
 							<div class="single-pricing-list">
 								<ul>
 									<li><i class="icofont icofont-check-alt"></i> Free Support</li>
 									<!-- <li><i class="icofont icofont-check-alt"></i> Unlimited Package</li> -->
-									<li><i class="icofont icofont-check-alt"></i> 50% Interest</li>
+									<li><i class="icofont icofont-check-alt"></i> 10% Interest</li>
 								</ul>
 							</div>
 						</div>
 						<div class="single-pricing-button">
-							<a href="#" class="mt-3 d-block text-center rounded-0">Buy It Now</a>
+							<a href="login-user.php" class="mt-3 d-block text-center rounded-0">Buy It Now</a>
 						</div>	
 					</div>
 				</div>
@@ -1193,10 +1220,10 @@ foreach($json as $obj)
 									<img class="img-fluid rounded-circle" src="assets/img/team/person1.jpg" alt="">
 								</div>
 								<div class="single-testimonial-content">
-									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illodrut inventore veritatis et quasi architecto beatae vitae dicta sunt. </p>
+									<p>Am so Thankfull and happy ivested $400 and got my total 10% interest in five days. Thanks. </p>
 								</div>
 								<div class="single-testimonial-meta">
-									<p>- Jone Doe</p>
+									<p>-Claudy Best</p>
 								</div>
 							</div>
 							<!-- end single testimonial -->
@@ -1205,10 +1232,49 @@ foreach($json as $obj)
 									<img class="img-fluid rounded-circle" src="assets/img/team/person2.jpg" alt="">
 								</div>
 								<div class="single-testimonial-content">
-									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illodrut inventore veritatis et quasi architecto beatae vitae dicta sunt. </p>
+									<p>Unbelievable Connext Coin Hub is makiing my day am realy happy my appreciation goes to my referrer </p>
 								</div>
 								<div class="single-testimonial-meta">
-									<p>- Hash Theme</p>
+									<p>- Austin Gabrial</p>
+								</div>
+							</div>
+							<!-- end single testimonial -->
+														<!-- end single testimonial -->
+														<div class="single-testimonial">
+								<div class="single-testimonial-image">
+									<img class="img-fluid rounded-circle" src="assets/img/team/person2.jpg" alt="">
+								</div>
+								<div class="single-testimonial-content">
+									<p>@Austin Gabrial I never beleived that i can withdraw my referral bonus once i got the starter plan without making a referral that is great. Thanks man </p>
+								</div>
+								<div class="single-testimonial-meta">
+									<p>- Thompson Owen </p>
+								</div>
+							</div>
+							<!-- end single testimonial -->
+														<!-- end single testimonial -->
+														<div class="single-testimonial">
+								<div class="single-testimonial-image">
+									<img class="img-fluid rounded-circle" src="assets/img/team/person2.jpg" alt="">
+								</div>
+								<div class="single-testimonial-content">
+									<p>Just got my third payment thanks Connext Coin Hub </p>
+								</div>
+								<div class="single-testimonial-meta">
+									<p>- Aafiya Jaku</p>
+								</div>
+							</div>
+							<!-- end single testimonial -->
+														<!-- end single testimonial -->
+														<div class="single-testimonial">
+								<div class="single-testimonial-image">
+									<img class="img-fluid rounded-circle" src="assets/img/team/person2.jpg" alt="">
+								</div>
+								<div class="single-testimonial-content">
+									<p>Was delayed in payment but i finally got paid thanks </p>
+								</div>
+								<div class="single-testimonial-meta">
+									<p>- Periera Henky</p>
 								</div>
 							</div>
 							<!-- end single testimonial -->
@@ -1219,110 +1285,8 @@ foreach($json as $obj)
         </div>
         <!--- END CONTAINER -->
     </section>
+
     <!-- END TESTIMONIAL SECTION -->
-
-	<!-- START BLOG SECTION -->
-    <section id="blog" class="section-padding">
-        <div class="container">
-			<div class="row">
-				<div class="col-12 text-left">
-					<div class="section-title mb-4">
-						<h5>get updated</h5>
-						<h3>Blog <span>Post</span></h3>
-					</div>
-				</div>
-			</div>
-			<!-- end section title -->
-			<div class="row">
-				<div class="col-lg-8 col-md-8 col-12 mb-lg-0 mb-md-4 mb-sm-4 mb-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <strong>enim ad minim veniam</strong>, quis nostrud exercitation ullamco </p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-12 text-left text-lg-right text-md-right">
-					<a href="#" class="btn-style btn-filled btn-filled-2">More News <i class="icofont icofont-caret-right"></i></a>
-				</div>
-			</div>
-			<div class="row mt-5">
-				<div class="col-lg-4 col-md-4 col-12 mb-lg-0 mb-md-4 mb-sm-4 mb-4">
-					<div class="single-blogh">
-						<div class="single-blog-himage">
-							<img class="img-fluid" src="assets/img/blog/2.jpg" alt="">
-						</div>
-						<div class="single-blog-hdec">
-							<a href="#"><h5>Final Testing for ETC Support on Connext Coin Hub</h5></a>
-							<span class="post-date"><i class="icofont icofont-calendar"></i> 17 Dec 2018</span>
-							<span class="post-comment"><i class="fa fa-comment"></i> 3 comments</span>
-							<p>
-								Lorem ipsum dolor sit amet consectetu adipiscing elit, sed do eiusmod tempor incididunt ut labore
-								<a href="#">[...]</a>
-							</p>
-							<div class="single-blog-hadmin">
-								<div class="single-blog-hadmin-img">
-									<img class="img-fluid rounded-circle" src="assets/img/team/person1.jpg" alt="">
-								</div>
-								<div class="single-blog-hadmin-info">
-									<p>By: <span>Jon Doe</span>for <span>TRADING</span></p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- end single blog -->
-				<div class="col-lg-4 col-md-4 col-12 mb-lg-0 mb-md-4 mb-sm-4 mb-4">
-					<div class="single-blogh">
-						<div class="single-blog-himage">
-							<img class="img-fluid" src="assets/img/blog/1.jpg" alt="">
-						</div>
-						<div class="single-blog-hdec">
-							<a href="#"><h5>What we accomplished at Coinbase in 2018</h5></a>
-							<span class="post-date"><i class="icofont icofont-calendar"></i> 18 Dec 2018</span>
-							<span class="post-comment"><i class="fa fa-comment"></i> 5 comments</span>
-							<p>
-								Lorem ipsum dolor sit amet consectetu adipiscing elit, sed do eiusmod tempor incididunt ut labore
-								<a href="#">[...]</a>
-							</p>
-							<div class="single-blog-hadmin">
-								<div class="single-blog-hadmin-img">
-									<img class="img-fluid rounded-circle" src="assets/img/team/person2.jpg" alt="">
-								</div>
-								<div class="single-blog-hadmin-info">
-									<p>By: <span>Jon Doe</span>for <span>TRADING</span></p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- end single blog -->
-				<div class="col-lg-4 col-md-4 col-12">
-					<div class="single-blogh">
-						<div class="single-blog-himage">
-							<img class="img-fluid" src="assets/img/blog/3.jpg" alt="">
-						</div>
-						<div class="single-blog-hdec">
-							<a href="#"><h5>Connext Coin Hub Custody is Officially Open For Business</h5></a>
-							<span class="post-date"><i class="icofont icofont-calendar"></i> 19 Dec 2018</span>
-							<span class="post-comment"><i class="fa fa-comment"></i> 4 comments</span>
-							<p>
-								Lorem ipsum dolor sit amet consectetu adipiscing elit, sed do eiusmod tempor incididunt ut labore
-								<a href="#">[...]</a>
-							</p>
-							<div class="single-blog-hadmin">
-								<div class="single-blog-hadmin-img">
-									<img class="img-fluid rounded-circle" src="assets/img/team/person1.jpg" alt="">
-								</div>
-								<div class="single-blog-hadmin-info">
-									<p>By: <span>Jon Doe</span>for <span>TRADING</span></p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- end single blog -->
-			</div>
-        </div>
-        <!--- END CONTAINER -->
-    </section>
-    <!-- END BLOG SECTION -->
-
 	<!-- START CLIENT SECTION -->
     <div id="client" class="client-section-padding bg-gray">
         <div class="container">
@@ -1362,7 +1326,7 @@ foreach($json as $obj)
 				<div class="col-lg-8 col-md-8 col-sm-12 col-12 mb-lg-0 mb-md-4 mb-sm-4 mb-4">
 					<div class="calltoaction-two-wrap">
 						<h4>Need More Service?</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do<br>incididunt ut labore et dolore magna aliqua.</p>
+						<p>Just sign Up and contact our customer service.</p>
 					</div>
 				</div>
 				<!-- end col -->
@@ -1395,7 +1359,7 @@ foreach($json as $obj)
 							</a>
                         </div>
                         <div class="about mb-2">
-                            <p>Lorem ipsum dolor sit ametconsect etur adipiscing elit, sed do eiusmod tempor incididunt ut labo reetdolor emagna aliqua. Ut enim ad minimv eniam, quis nostrud exerc itationul amco laboris nisi ut aliquip exeallg commodo consequat.</p>
+                            <p>We are here to serve in making the adquate use of your invest to give you our customers the best improve you can dream of. Thank  Subscribe with us to get our news letters and free point signals.</p>
                         </div>
                         <div class="footer-news">
 							<form action="#">
@@ -1424,36 +1388,6 @@ foreach($json as $obj)
 								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Market Price </a></li>
 							</ul>
 						</div>	
-                    </div>
-                    <!-- End Widget -->
-                    <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-0 mb-5 footer-widget">
-                        <div class="footer-section-title col-12 no-padding">
-                            <h3>latest Post</h3>
-                        </div>
-                        <!-- END SECTION TITLE -->
-						<div class="col-12 footer-widget-inner recentPost">
-							<div class="singleRecpost">
-								<img src="assets/img/blog/1.jpg" alt="" class="img-fluid">
-								<h6 class="recTitle">
-									<a href="#">Lorem ipsum dolor sit amet, consectetuer.</a>
-								</h6>
-								<p class="posted-on">3 DEC 2018</p>
-							</div>
-							<div class="singleRecpost">
-								<img src="assets/img/blog/2.jpg" alt="" class="img-fluid">
-								<h6 class="recTitle">
-									<a href="#">Lorem ipsum dolor sit amet, consectetuer.</a>
-								</h6>
-								<p class="posted-on">4 DEC 2018</p>
-							</div>
-							<div class="singleRecpost">
-								<img src="assets/img/blog/3.jpg" alt="" class="img-fluid">
-								<h6 class="recTitle">
-									<a href="#">Lorem ipsum dolor sit amet, consectetuer.</a>
-								</h6>
-								<p class="posted-on">5 DEC 2018</p>
-							</div>
-						</div>
                     </div>
                     <!-- End Widget -->
                     <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-0 footer-widget">
@@ -1489,18 +1423,22 @@ foreach($json as $obj)
 									<p>Mon - Sun : 09:00 - 18:00</p>
 								</div>
 							</div>
+							</div>
 						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-0 footer-widget">
+
 						<div class="col-12 mt-4 footer-social-war">
 							<div class="footer-social">
 								<ul>
 									<li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>
-									<li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>
-									<li><a href="#"><i class="icofont icofont-social-youtube"></i></a></li>
+									<li><a href="#"><i class="icofont icofont-social-telegram"></i></a></li>
+									<li><a href="#"><i class="icofont icofont-social-whatsapp"></i></a></li>
 									<li><a href="#"><i class="icofont icofont-social-google-plus"></i></a></li>
 								</ul>
 							</div>
 						</div>
                     </div>
+					</div>
                     <!-- End Widget -->
                 </div>
             </div>
