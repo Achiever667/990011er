@@ -67,7 +67,7 @@ if($email != false && $password != false){
           </ul>
         </div>
         <ul class="navbar-nav navbar-right">
-       <li class="dropdown"><h5>Welcome, <span><?php echo $fetch_info['name'] ?></span></h5></li>
+       <li class="dropdown"><h5>Hi, <span><?php echo $fetch_info['name'] ?></span></h5></li>
           <li class="dropdown"><a href="#" data-toggle="dropdown"
               class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="User-assests/img/user.png"
                 class="user-img-radious-style"> <span class="d-sm-none d-lg-inline-block"></span></a>
@@ -107,9 +107,9 @@ if($email != false && $password != false){
             <li class="dropdown">
               <a href="transaction.php" class="menu-toggle nav-link has-dropdown"><i data-feather="bar-chart"></i><span>Investment Plans</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="investmentp.php">Basic</a></li>
-                <li><a class="nav-link" href="investmentp.php">Standard</a></li>
-                <li><a class="nav-link" href="investmentp.php">Unlimited</a></li>
+                <li><a class="nav-link" href="basic.php">Basic</a></li>
+                <li><a class="nav-link" href="standard.php">Standard</a></li>
+                <li><a class="nav-link" href="unlimited.php">Unlimited</a></li>
               </ul>
             </li>
             <li class="dropdown ">
@@ -137,9 +137,8 @@ if($email != false && $password != false){
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pr-0 pt-3">
                         <div class="card-content">
                           <h2 class="font-15">Total Deposit</h2>
-                          <h5 class="mb-3 font-18"$>$258</h5>
+                          <h5 class="mb-3 font-18"$>$<?php echo $fetch_info['investmentamount']++ ?></h5>
                           <h5>Date : <?php echo " " . date("Y-m-d"); ?> </h5>
-                          <!-- <p class="mb-0"><span class="col-green">10%</span> Increase</p> -->
                         </div>
                       </div>
                       <!-- <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -163,16 +162,8 @@ if($email != false && $password != false){
                           <h5 class="mb-3 font-18">$1,287</h5>
                           <h5 class="font-18"> Date : <?php echo " " . date("Y-m-d"); ?></h5>
 
-                          <!-- <p class="mb-0"><span class="col-orange">09%</span> Decrease</p> -->
                         </div>
                       </div>
-                      <!-- <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
-                        <div class="banner-img">
-                          <img src="User-assests/img/banner/2.png" alt="">
-                        </div>
-                      </div> -->
-                    <!-- </div> -->
-                  <!-- </div> -->
                 </div>
               </div>
               

@@ -180,7 +180,7 @@
 							<div class="col-lg-7 col-md-10 col-12 mr-auto text-left">
 								<div class="home-single-slide-dec">
 									<h2>Secure & easy way to <br> buy & sell bitcoin</h2>
-									<p class="text-capitalize">Gold is a great way to preserve wealth, but it is hard to move around. You do need some kind of alternative and Bitcoin fits the bill. And that is why we by and sell Bitcoin</p>
+									<p class="text-capitalize">Gold is a great way to preserve wealth, but it is hard to move around. You do need some kind of alternative and Bitcoin fits the bill. And that is why we buy and sell Bitcoin</p>
 									<div class="home-single-slide-button">
 										<a href="#" class="btn-style btn-filled">Get Started </a>
 										<a href="#" class="btn-style btn-border">Download PDF</a>
@@ -368,7 +368,7 @@ foreach($json as $obj)
 								<h5>Account Security</h5>
 							</div>
 							<div class="single-about-dec">
-								<p>Be your first security and manage what you invest.</p>
+								<p>Be your first security as we are end-to-end encrypted in our transactions, and manage what you invest.</p>
 							</div>
 						</div>
 					</div>
@@ -410,7 +410,7 @@ foreach($json as $obj)
 								<h5>Bitcoin Legality</h5>
 							</div>
 							<div class="single-about-dec">
-								<p>A money transaction system without any charge.</p>
+								<p>A money transaction system without any charge. It is aproved system of tecnological increase in the market space</p>
 							</div>
 						</div>
 					</div>
@@ -463,7 +463,7 @@ foreach($json as $obj)
                                 <div class="icon-outer"><span class="icon icofont icofont-ui-press"></span></div>What about the trading with Connext Coin Hub?</div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <p>Trading with us is a great idea providing with No stress and hard time our spcialists helps you do the job <span class="text-success">@Connext</span> </p>
+                                    <p>Trading with us is a great idea providing with No stress and No hard time our spcialists helps you do the job <span class="text-success">@Connext</span> </p>
                                 </div>
                             </div>
                         </li>
@@ -753,7 +753,7 @@ foreach($json as $obj)
 			<div class="row mt-5">
 				<div class="col-12 text-center">
 					<div class="serviceall-btn wow fadeInDown">
-						<a href="#">Check All Services <i class="icofont icofont-long-arrow-right"></i></a>
+						<a href="service.php">Check All Services <i class="icofont icofont-long-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>	
@@ -918,7 +918,7 @@ foreach($json as $obj)
 									<td>34,89</td>
 								</tr>
 								<tr>
-									<th scope="row"><i class="icofont icofont-cur-dollar"></i> Connext Coin Hub</th>
+									<th scope="row"><i class="icofont icofont-cur-dollar"></i> ConnextCoin</th>
 									<td>97.45$</td>
 									<td>45.20%</td>
 									<td>492BTC</td>
@@ -1359,7 +1359,7 @@ foreach($json as $obj)
 							</a>
                         </div>
                         <div class="about mb-2">
-                            <p>We are here to serve in making the adquate use of your invest to give you our customers the best improve you can dream of. Thank  Subscribe with us to get our news letters and free point signals.</p>
+                            <p>We are here to serve you in making the adquate use of your invest to give you our customers the best improve you can dream of. Thanks,  Subscribe with us to get our news letters and free point signals.</p>
                         </div>
                         <div class="footer-news">
 							<form action="#">

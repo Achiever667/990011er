@@ -66,8 +66,8 @@
 							<ul>
 								<li><a href="#"><i class="icofont icofont-login"></i> Login </a></li>
 								<li><a href="#"><i class="icofont icofont-user-alt-5"></i> Register </a></li>
-								<li><a href="#"><i class="icofont icofont-hand-drag2"></i> Help </a></li>
-								<li><a href="#"><i class="icofont icofont-live-support"></i> Support </a></li>
+								<!-- <li><a href="#"><i class="icofont icofont-hand-drag2"></i> Help </a></li>
+								<li><a href="#"><i class="icofont icofont-live-support"></i> Support </a></li> -->
 							</ul>
 						</div>
 					</div> 
@@ -105,7 +105,7 @@
                             <h6>123-456-0975</h6>
                         </div>
 						<div class="header-info-box">
-                            <a href="#" class="quote-btn">Get Started <i class="icofont icofont-caret-right"></i></a>
+                            <a href="login-user.php" class="quote-btn">Get Started <i class="icofont icofont-caret-right"></i></a>
                         </div>
 					</div>
 					<!-- end col -->
@@ -168,7 +168,7 @@
 					<div class="col-12 text-center">
 						<div class="single-page-title">
 							<h2>About Connext Coin Hub</h2>
-							<p>Lorem ipsum dolor sit amet</p>
+							<p>We are ready to fly with you</p>
 						</div>
 					</div>
 				</div>
@@ -199,16 +199,16 @@
 					<div class="blockquote-wrapper">
 						<span class="blockquote-line"></span>
 						<blockquote class="blockquote">
-							<p><i class="icofont icofont-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit Inte posuere erat a ante sed do eiusd tempor incididunt ut et dolore magna aliqua. <i class="icofont icofont-quote-right"></i></p>
-							<footer class="blockquote-footer">Jone Doe, <cite title="Source Title">Florida, USA</cite></footer>
+							<p><i class="icofont icofont-quote-left"></i> Our Affliate Progress has led us to working with most entitled coin trading companies making us one of the most trusted  coinbase partners. <i class="icofont icofont-quote-right"></i></p>
+							<footer class="blockquote-footer">Oxford G. Mcdonald, <cite title="Source Title">Florida, USA</cite></footer>
 						</blockquote>
 						<div class="single-blog-hadmin">
 							<div class="single-blog-hadmin-img">
 								<img class="img-fluid rounded-circle" src="assets/img/team/person2.jpg" alt="">
 							</div>
 							<div class="single-blog-hadmin-info">
-								<p>Hash Theme</p>
-								<span>Web Development</span>
+								<p>Johnson Pico</p>
+								<span>Bank Representative</span>
 							</div>
 						</div>
 					</div>
@@ -225,7 +225,7 @@
 									<img class="img-fluid" src="assets/img/clients/4.png" alt="">
 								</div>
 								<div class="image-two-des">
-									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illodrut inventore veritatis et quasi architecto beatae vitae dicta sunt. </p>
+									<p>You can make you withdraw with any aproved Cryptocurrency coin trading system wallet address and convert to local Currency. </p>
 								</div>
 								<div class="image-two-rem text-right">
 									<a href="#"><i class="icofont icofont-long-arrow-right"></i></a>
@@ -242,96 +242,87 @@
     <!-- END ABOUT PROMO SECTION -->
 	
 	<!-- START CHOOSE US SECTION -->
-    <section id="chhoseus" class="section-padding bg-gray">
+	<section id="chhoseus" class="section-padding">
         <div class="container">
 			<div class="row">
 				<div class="col-12 text-center">
 					<div class="section-title">
 						<h5>Bitcoin Legality</h5>
-						<h3>Why Choose <span>Connext Coin Hub</span></h3>
+						<h3>Why Choose <span>connext coin</span></h3>
 					</div>
 				</div>
 			</div>
 			<!-- end section title -->
-			<div class="row">	 
-				<div class="col-lg-4 col-md-4 col-12 mb-5">
-					<div class="single-wcus">
-						<div class="single-wcus-icon">
-							<i class="icofont icofont-bill"></i>
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-12 mb-lg-0 mb-md-0 mb-5">
+					<div class="row">	 
+						<div class="col-lg-6 col-md-6 col-12 mb-5">
+							<div class="single-wcus">
+								<div class="single-wcus-icon">
+									<i class="icofont icofont-bill"></i>
+								</div>
+								<div class="single-wcus-text">
+									<h5>Easy Trading</h5>
+									<p>We make trading easy by co-operating with the most vibrant coin systems. </p>
+								</div>
+							</div>
 						</div>
-						<div class="single-wcus-text">
-							<h5>Easy Trading</h5>
-							<p>Lorem ipsum dolor sit ametelid consectetur adipiscing elit sedd eiusmod tempor.</p>
+						<!-- end single chooseus -->	 
+						<div class="col-lg-6 col-md-6 col-12 mb-5">
+							<div class="single-wcus">
+								<div class="single-wcus-icon">
+									<i class="icofont icofont-coins"></i>
+								</div>
+								<div class="single-wcus-text">
+									<h5>Trading Strategy</h5>
+									<p>Our stratage is great in determing the best signals and delivering the best profit improve.</p>
+								</div>
+							</div>
 						</div>
+						<!-- end single chooseus -->	 
+						<div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-0 mb-5">
+							<div class="single-wcus">
+								<div class="single-wcus-icon">
+									<i class="icofont icofont-money"></i>
+								</div>
+								<div class="single-wcus-text">
+									<h5>Money Exchange</h5>
+									<p>You can exchange your coin to your local currency once you get paid .</p>
+								</div>
+							</div>
+						</div>
+						<!-- end single chooseus -->	 
+						<div class="col-lg-6 col-md-6 col-12">
+							<div class="single-wcus">
+								<div class="single-wcus-icon">
+									<i class="icofont icofont-ui-travel"></i>
+								</div>
+								<div class="single-wcus-text">
+									<h5>Security Ensure</h5>
+									<p>Our security measures ensures that you do keep your login details best to yourself and your transactions with us is clearly secure.</p>
+								</div>
+							</div>
+						</div>
+						<!-- end single chooseus -->
 					</div>
 				</div>
-				<!-- end single chooseus -->	 
-				<div class="col-lg-4 col-md-4 col-12 mb-5">
-					<div class="single-wcus">
-						<div class="single-wcus-icon">
-							<i class="icofont icofont-coins"></i>
-						</div>
-						<div class="single-wcus-text">
-							<h5>Trading Strategy</h5>
-							<p>Lorem ipsum dolor sit ametelid consectetur adipiscing elit sedd eiusmod tempor.</p>
-						</div>
-					</div>
-				</div>
-				<!-- end single chooseus -->	 
-				<div class="col-lg-4 col-md-4 col-12 mb-lg-0 mb-md-0 mb-5">
-					<div class="single-wcus">
-						<div class="single-wcus-icon">
-							<i class="icofont icofont-money"></i>
-						</div>
-						<div class="single-wcus-text">
-							<h5>Money Exchange</h5>
-							<p>Lorem ipsum dolor sit ametelid consectetur adipiscing elit sedd eiusmod tempor.</p>
-						</div>
-					</div>
-				</div>
-				<!-- end single chooseus -->	 
-				<div class="col-lg-4 col-md-4 col-12 mb-lg-0 mb-md-0 mb-5">
-					<div class="single-wcus">
-						<div class="single-wcus-icon">
-							<i class="icofont icofont-ui-travel"></i>
-						</div>
-						<div class="single-wcus-text">
-							<h5>Security Ensure</h5>
-							<p>Lorem ipsum dolor sit ametelid consectetur adipiscing elit sedd eiusmod tempor.</p>
-						</div>
-					</div>
-				</div>
-				<!-- end single chooseus -->	 
-				<div class="col-lg-4 col-md-4 col-12 mb-lg-0 mb-md-0 mb-5">
-					<div class="single-wcus">
-						<div class="single-wcus-icon">
-							<i class="icofont icofont-money-bag"></i>
-						</div>
-						<div class="single-wcus-text">
-							<h5>Cryptocurrency Trading</h5>
-							<p>Lorem ipsum dolor sit ametelid consectetur adipiscing elit sedd eiusmod tempor.</p>
-						</div>
-					</div>
-				</div>
-				<!-- end single chooseus -->	 
+				<!-- end col -->	 
 				<div class="col-lg-4 col-md-4 col-12">
-					<div class="single-wcus">
-						<div class="single-wcus-icon">
-							<i class="icofont icofont-briefcase"></i>
-						</div>
-						<div class="single-wcus-text">
-							<h5>Bitcoin Legality</h5>
-							<p>Lorem ipsum dolor sit ametelid consectetur adipiscing elit sedd eiusmod tempor.</p>
+					<div class="single-wcus-promo">
+						<div class="single-wcus-promo-inner">
+							<h3>We are ready to fly with you.</h3>
+							<p>We agree and ready to go wide with our Customers and our our subscribers.</p>
+							<a href="#" class="btn-style btn-border btn-border-2">Read More</a>
 						</div>
 					</div>
 				</div>
-				<!-- end single chooseus -->
+				<!-- end col -->	
 			</div>		
         </div>
         <!--- END CONTAINER -->
     </section>
     <!-- END CHOOSE US SECTION -->	
-	
+		
 	<!-- START COUNTER SECTION -->
     <section id="counter" class="section-padding overlay counter-section section-back-image-2" data-background="assets/img/bg/counterbg2.jpg">
         <div class="container"> 
@@ -404,7 +395,7 @@
 									<td>427BTC</td>
 								</tr>
 								<tr>
-									<th scope="row"><i class="icofont icofont-cur-dollar"></i> Connext Coin Hub</th>
+									<th scope="row"><i class="icofont icofont-cur-dollar"></i> ConnextCoin</th>
 									<td>97.45$</td>
 									<td>492BTC</td>
 								</tr>
@@ -460,13 +451,15 @@
     <!-- END PRICETABLE SECTION -->
 	
 	<!-- START TEAM SECTION -->
+    
+	<!-- START TEAM SECTION -->
     <section id="team" class="section-padding bg-gray">
         <div class="container">
 			<div class="row">
 				<div class="col-12 text-center">
 					<div class="section-title">
-						<h5>quality experts</h5>
-						<h3>Our Team <span>Member</span></h3>
+						<h5>our masters</h5>
+						<h3>Connext Coin Hub <span>Expert</span></h3>
 					</div>
 				</div>
 			</div>
@@ -486,9 +479,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Jone Doe</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Jack Melow</h4>
+								<span>Connext Coin Hub, CEO</span>
+								<p>Specialist in Coin Management.</p>
 							</div>	
 						</div>							
 					</div>
@@ -506,9 +499,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Mark Henry</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Clara Ketty</h4>
+								<span>Connext Coin Hub, CFO</span>
+								<p>Specialist in facilitating .</p>
 							</div>	
 						</div>							
 					</div>
@@ -526,9 +519,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Bishen Ketty</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Bishen Henry</h4>
+								<span>Connext Coin Hub, Coin Mining Chief</span>
+								<p>Specialists in Bitcon Mining and Exchange.</p>
 							</div>	
 						</div>							
 					</div>
@@ -547,8 +540,8 @@
 							</div>
 							<div class="single-team-meta">
 								<h4>Kwasan Rowy</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<span>Coinbase/Connext Coin Hub Ambassador</span>
+								<p>Our Representative.</p>
 							</div>	
 						</div>							
 					</div>
@@ -566,9 +559,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Jone Doe</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Oxford Gabby</h4>
+								<span>Connext Coin Hub, CTO</span>
+								<p>Our technqical director.</p>
 							</div>	
 						</div>							
 					</div>
@@ -588,7 +581,7 @@
 				<div class="col-12 text-center">
 					<div class="calltoaction-two-wrap mb-4">
 						<h4 class="text-uppercase">Need More Service?</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+						<p>Just sign Up and contact our customer service.</p>
 					</div>
 					<a href="#" class=" wow fadeInDown btn-style btn-border btn-border-3">Contact Us <i class="icofont icofont-hand-right"></i></a>
 				</div>
@@ -600,54 +593,6 @@
 	</section>
     <!-- END CALLTOACTION SECTION -->
 	
-	<!-- START TESTIMONIAL SECTION -->
-    <section id="testimonial" class="section-padding">
-        <div class="container">
-			<div class="row">
-				<div class="col-12 text-center">
-					<div class="section-title">
-						<h5>customer Feedback</h5>
-						<h3>What <span>Clinet Say</span></h3>
-					</div>
-				</div>
-			</div>
-			<!-- end section title -->
-			<div class="testimonial-wrapper bg-gray-2 section-padding">
-				<div class="row">
-					<div class="col-lg-8 mx-lg-auto mx-md-auto mx-0 text-center">
-						<div class="testimonial-slider owl-carousel owl-theme">
-							<div class="single-testimonial">
-								<div class="single-testimonial-image">
-									<img class="img-fluid rounded-circle" src="assets/img/team/person1.jpg" alt="">
-								</div>
-								<div class="single-testimonial-content">
-									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illodrut inventore veritatis et quasi architecto beatae vitae dicta sunt. </p>
-								</div>
-								<div class="single-testimonial-meta">
-									<p>- Jone Doe</p>
-								</div>
-							</div>
-							<!-- end single testimonial -->
-							<div class="single-testimonial">
-								<div class="single-testimonial-image">
-									<img class="img-fluid rounded-circle" src="assets/img/team/person2.jpg" alt="">
-								</div>
-								<div class="single-testimonial-content">
-									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illodrut inventore veritatis et quasi architecto beatae vitae dicta sunt. </p>
-								</div>
-								<div class="single-testimonial-meta">
-									<p>- Hash Theme</p>
-								</div>
-							</div>
-							<!-- end single testimonial -->
-						</div>
-					</div>
-				</div>
-			</div>
-        </div>
-        <!--- END CONTAINER -->
-    </section>
-    <!-- END TESTIMONIAL SECTION -->
 	
 	<!-- START CLIENT SECTION -->
     <div id="client" class="client-section-padding bg-gray">
@@ -681,6 +626,7 @@
     </div>
     <!-- END CLIENT SECTION -->
 	
+   
     <!-- START FOOTER -->
     <footer>
         <!--Footer top -->
@@ -700,7 +646,7 @@
 							</a>
                         </div>
                         <div class="about mb-2">
-                            <p>Lorem ipsum dolor sit ametconsect etur adipiscing elit, sed do eiusmod tempor incididunt ut labo reetdolor emagna aliqua. Ut enim ad minimv eniam, quis nostrud exerc itationul amco laboris nisi ut aliquip exeallg commodo consequat.</p>
+                            <p>We are here to serve you in making the adquate use of your invest to give you our customers the best improve you can dream of. Thanks,  Subscribe with us to get our news letters and free point signals.</p>
                         </div>
                         <div class="footer-news">
 							<form action="#">
@@ -729,36 +675,6 @@
 								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Market Price </a></li>
 							</ul>
 						</div>	
-                    </div>
-                    <!-- End Widget -->
-                    <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-0 mb-5 footer-widget">
-                        <div class="footer-section-title col-12 no-padding">
-                            <h3>latest Post</h3>
-                        </div>
-                        <!-- END SECTION TITLE -->
-						<div class="col-12 footer-widget-inner recentPost">
-							<div class="singleRecpost">
-								<img src="assets/img/blog/1.jpg" alt="" class="img-fluid">
-								<h6 class="recTitle">
-									<a href="#">Lorem ipsum dolor sit amet, consectetuer.</a>
-								</h6>
-								<p class="posted-on">3 DEC 2018</p>
-							</div>
-							<div class="singleRecpost">
-								<img src="assets/img/blog/2.jpg" alt="" class="img-fluid">
-								<h6 class="recTitle">
-									<a href="#">Lorem ipsum dolor sit amet, consectetuer.</a>
-								</h6>
-								<p class="posted-on">4 DEC 2018</p>
-							</div>
-							<div class="singleRecpost">
-								<img src="assets/img/blog/3.jpg" alt="" class="img-fluid">
-								<h6 class="recTitle">
-									<a href="#">Lorem ipsum dolor sit amet, consectetuer.</a>
-								</h6>
-								<p class="posted-on">5 DEC 2018</p>
-							</div>
-						</div>
                     </div>
                     <!-- End Widget -->
                     <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-0 footer-widget">
@@ -794,18 +710,22 @@
 									<p>Mon - Sun : 09:00 - 18:00</p>
 								</div>
 							</div>
+							</div>
 						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-0 footer-widget">
+
 						<div class="col-12 mt-4 footer-social-war">
 							<div class="footer-social">
 								<ul>
 									<li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>
-									<li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>
-									<li><a href="#"><i class="icofont icofont-social-youtube"></i></a></li>
+									<li><a href="#"><i class="icofont icofont-social-telegram"></i></a></li>
+									<li><a href="#"><i class="icofont icofont-social-whatsapp"></i></a></li>
 									<li><a href="#"><i class="icofont icofont-social-google-plus"></i></a></li>
 								</ul>
 							</div>
 						</div>
                     </div>
+					</div>
                     <!-- End Widget -->
                 </div>
             </div>
@@ -823,15 +743,14 @@
                         </ul>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 copyright-text text-center text-lg-right text-md-right">
-                        <p><a href="https://www.templateshub.net" target="_blank">Connext Coin Hub</a></p>
+                        <p><a href="index.php" target="_blank">Connext Coin Hub</a></p>
                     </div>
                 </div>
             </div>
         </div>
 		
     </footer>
-    <!-- END FOOTER -->
-	
+
 	<!-- Latest jQuery -->
     <script src="assets/js/jquery-2.2.4.min.js"></script>
     <!-- popper js -->

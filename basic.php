@@ -67,7 +67,7 @@ if($email != false && $password != false){
           </ul>
         </div>
         <ul class="navbar-nav navbar-right">
-       <li class="dropdown"><h5>Welcome, <span><?php echo $fetch_info['name'] ?></span></h5></li>
+       <li class="dropdown"><h5>Hi, <span><?php echo $fetch_info['name'] ?></span></h5></li>
           <li class="dropdown"><a href="#" data-toggle="dropdown"
               class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="User-assests/img/user.png"
                 class="user-img-radious-style"> <span class="d-sm-none d-lg-inline-block"></span></a>
@@ -161,7 +161,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content" id="basic">
                           <h5 class="font-15"> Basic</h5>
-                          <h2 class="mb-3 font-18 col-green"$>$100</h2>
+                          <h2 class="mb-3 font-18 col-green"$>$150</h2>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -182,7 +182,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content" id="basic">
                           <h5 class="font-15"> Basic</h5>
-                          <h2 class="mb-3 font-18 col-green"$>$100</h2>
+                          <h2 class="mb-3 font-18 col-green"$>$200</h2>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -203,7 +203,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content" id="basic">
                           <h5 class="font-15"> Basic</h5>
-                          <h2 class="mb-3 font-18 col-green"$>$100</h2>
+                          <h2 class="mb-3 font-18 col-green"$>$500</h2>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -226,7 +226,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content" id="basic">
                           <h5 class="font-15"> Basic</h5>
-                          <h2 class="mb-3 font-18 col-green"$>$100</h2>
+                          <h2 class="mb-3 font-18 col-green"$>$1000</h2>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -247,7 +247,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content" id="basic">
                           <h5 class="font-15"> Basic</h5>
-                          <h2 class="mb-3 font-18 col-green"$>$100</h2>
+                          <h2 class="mb-3 font-18 col-green"$>$1,500</h2>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -268,7 +268,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content" id="basic">
                           <h5 class="font-15"> Basic</h5>
-                          <h2 class="mb-3 font-18 col-green"$>$100</h2>
+                          <h2 class="mb-3 font-18 col-green"$>$2000</h2>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -289,7 +289,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content" id="basic">
                           <h5 class="font-15"> Basic</h5>
-                          <h2 class="mb-3 font-18 col-green"$>$100</h2>
+                          <h2 class="mb-3 font-18 col-green"$>$3000</h2>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -297,7 +297,7 @@ if($email != false && $password != false){
                         <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="invest.php"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
                         </div>
                       </div>
-                    </div>
+                    </div>     
                   </div>
                 </div>
               </div>

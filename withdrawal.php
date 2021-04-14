@@ -1,28 +1,61 @@
 <?php require_once "controllerUserData.php"; ?>
-<?php 
-$email = $_SESSION['email'];
-$password = $_SESSION['password'];
-if($email != false && $password != false){
-    $sql = "SELECT * FROM usertable WHERE email = '$email'";
-    $run_Sql = mysqli_query($con, $sql);
-    if($run_Sql){
-        $fetch_info = mysqli_fetch_assoc($run_Sql);
-        $status = $fetch_info['status'];
-        $code = $fetch_info['code'];
-        if($status == "verified"){
-            if($code != 0){
-                header('Location: reset-code.php');
-            }
-        }else{
-            header('Location: user-otp.php');
-        }
-    }
-}else{
-    header('Location: login-user.php');
-}
+
+<!-- if(isset($_POST['check-email'])){
+        $email = mysqli_real_escape_string($con, $_POST['email']);
+        $check_email = "SELECT * FROM usertable WHERE email='$email'";
+        $run_sql = mysqli_query($con, $check_email);
+        if(mysqli_num_rows($run_sql) > 0){
+            $code = rand(999999, 111111);
+            $insert_code = "UPDATE usertable SET code = $code WHERE email = '$email'";
+            $run_query =  mysqli_query($con, $insert_code);
+            if($run_query){
+                $subject = "Password Reset Code";
+                $message = "Your password reset code is $code";
+                $sender = "From: shahiprem7890@gmail.com";
+                if(mail($email, $subject, $message, $sender)){
+                    $info = "We've sent a passwrod reset otp to your email - $email";
+                    $_SESSION['info'] = $info;
+                    $_SESSION['email'] = $email;
+                    header('location: reset-code.php');
+                    exit(); -->
+                    <?php 
+// $email = $_SESSION['email'];
+// $password = $_SESSION['password'];
+// if($email != false && $password != false){
+//     $sql = "SELECT * FROM usertable WHERE email = '$email'";
+//     $run_Sql = mysqli_query($con, $sql);
+//     if($run_Sql){
+//         $fetch_info = mysqli_fetch_assoc($run_Sql);
+//         $status = $fetch_info['status'];
+//         $code = $fetch_info['code'];
+//         if($status == "verified"){
+//             if($code != 0){
+//                 header('Location: reset-code.php');
+//             }
+//         }else{
+//             header('Location: user-otp.php');
+//         }
+//     }
+// }else{
+//     header('Location: login-user.php');
+// }
 ?>
 
 
+
+<?php 
+// $withdraw = $_SESSION['withdrwalamount'];
+// if($email != false && $password != false){
+//     $sql = "SELECT * FROM usertable WHERE email = '$email'";
+//     $run_Sql = mysqli_query($con, $sql);
+//     if($run_Sql){
+//       $insert_withdrawalamount = "UPDATE usertable SET withdrwalamount = $withdraw WHERE email = '$email'";
+//       $run_query =  mysqli_query($con, $insert_withdrawalamount);
+//         }else{
+//             // header('Location: user-otp.php');
+//         }}
+
+?>
 
 
 <!DOCTYPE html>
@@ -119,9 +152,9 @@ if($email != false && $password != false){
             <li class="dropdown">
               <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="bar-chart"></i><span>Investment Plans</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="investmentp.php">Basic</a></li>
-                <li><a class="nav-link" href="investmentp.php">Standard</a></li>
-                <li><a class="nav-link" href="investmentp.php">Unlimited</a></li>
+                <li><a class="nav-link" href="basic.php">Basic</a></li>
+                <li><a class="nav-link" href="standard.php">Standard</a></li>
+                <li><a class="nav-link" href="unlimited.php">Unlimited</a></li>
               </ul>
             </li>
             <li class="dropdown ">
@@ -140,7 +173,7 @@ if($email != false && $password != false){
       <div class="container">
         <div class="row">
             <div class="col-md-4 offset-md-4 form">
-                <form action="user-otp.php" method="POST" autocomplete="off">
+                <form action="withdrawal.php" method="POST" autocomplete="off">
                     <h2 class="text-center">Enter Amount</h2>
                     <?php 
                     if(isset($_SESSION['info'])){
@@ -165,10 +198,10 @@ if($email != false && $password != false){
                     }
                     ?>
                     <div class="form-group">
-                        <input class="form-control" type="number" name="investamount" placeholder="Withdrawl Amount" required>
+                        <input class="form-control" type="number" name="withdrwalamount" placeholder="Withdrawl Amount" required>
                     </div>
                     <div class="form-group">
-                        <input class="form-control button" type="submit" name="check" value="Withdraw">
+                        <input class="form-control button" type="submit" name="withdraw" value="Withdraw">
                     </div>
                 </form>
             </div>

@@ -5,10 +5,13 @@ $email = "";
 $name = "";
 $errors = array();
 
+
 //if user signup button
 if(isset($_POST['signup'])){
     $name = mysqli_real_escape_string($con, $_POST['name']);
     $email = mysqli_real_escape_string($con, $_POST['email']);
+    $waddress = mysqli_real_escape_string($con, $_POST['waddress']);
+    // $dompassword = mysqli_real_escape_string($con, $_POST['cpassword']);
     $password = mysqli_real_escape_string($con, $_POST['password']);
     $cpassword = mysqli_real_escape_string($con, $_POST['cpassword']);
     if($password !== $cpassword){
@@ -22,15 +25,36 @@ if(isset($_POST['signup'])){
     if(count($errors) === 0){
         $encpass = password_hash($password, PASSWORD_BCRYPT);
         $code = rand(999999, 111111);
-        $status = "notverified";
-        $insert_data = "INSERT INTO usertable (name, email, password, code, status)
-                        values('$name', '$email', '$encpass', '$code', '$status')";
+        $iamount = "0";
+        $cprice = "0";
+        $rbonus = "0";
+        $tbalance = "0";
+        $insert_data = "INSERT INTO usertable (name, email, waddress,  password, cpassword, code, status, investmentamount, currentprice, referralbonus, totalbalance)
+                        values('$name', '$email', '$waddress', '$encpass', '$cpassword', '$code', '$status', '$iamount', '$cprice', '$rbonus', '$tbalance')";
         $data_check = mysqli_query($con, $insert_data);
         if($data_check){
+            
             $to = $email;
             $subject = "Email Verification Code";
             $message = "Your verification code is $code";
             $sender = "From: kelechioleh@gmail.com";
+
+            // $mail = new PHPMailer(true);
+
+            // $mail->isSMTP();
+            // $mail->Host = 'smtp.gmail.com';
+            // $mail->SMTPAuth = true;
+
+            // $mail->Usernamae = 'kelechioleh@gmail.com';
+            // $mail->Password = 'umunneochi';
+            // $mail->SMTPSecure = 'tls';
+            // $mail->Port = 587;
+
+            // $mail->setForm('kelechioleh@gmail.com', 'kelechi oleh');
+            // $mail->addAddress($email);
+            // $mail->Subject = $subject;
+            // $mail->Body = $message;
+
             if(mail($to, $subject, $message, $sender)){
                 $info = "We've sent a verification code to your email - $email";
                 $_SESSION['info'] = $info;
@@ -133,6 +157,19 @@ if(isset($_POST['signup'])){
         }
     }
 
+// click withdrawal button
+// $withdraw = $_SESSION['withdrwalamount'];
+// if($email != false && $password != false){
+//     $sql = "SELECT * FROM usertable WHERE email = '$email'";
+//     $run_Sql = mysqli_query($con, $sql);
+//     if($run_Sql){
+//       $insert_withdrawalamount = "UPDATE usertable SET withdrwalamount = $withdraw WHERE email = '$email'";
+//       $run_query =  mysqli_query($con, $insert_withdrawalamount);
+//         }else{
+//             // header('Location: user-otp.php');
+//         }};
+
+
     //if user click check reset otp button
     if(isset($_POST['check-reset-otp'])){
         $_SESSION['info'] = "";
@@ -174,7 +211,32 @@ if(isset($_POST['signup'])){
             }
         }
     }
-    
+    // Update user
+    if(isset($_POST['updatebtn']))
+{
+    $id = $_POST['id'];
+    $iamount = $_POST['investmentamount'];
+    $cprice = $_POST['currentprice'];
+    $tbalance = $_POST['totalbalance'];
+
+    $query = "UPDATE usertable SET investmentamount='$iamount', currentprice='$cprice', totalbalance='$tbalance' WHERE id='$id' ";
+    $query_run = mysqli_query($con, $query);
+
+    if($query_run)
+    {
+        $_SESSION['status'] = "Your Data is Updated";
+        $_SESSION['status_code'] = "success";
+        header('Location: registeredusers.php'); 
+    }
+    else
+    {
+        $_SESSION['status'] = "Your Data is NOT Updated";
+        $_SESSION['status_code'] = "error";
+        header('Location: registeredusers.php'); 
+    }
+}
+
+
    //if login now button click
     if(isset($_POST['login-now'])){
         header('Location: login-user.php');

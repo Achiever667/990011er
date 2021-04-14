@@ -23,19 +23,27 @@ CREATE TABLE `usertable` (
   `id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
+  `waddress` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
+  `cpassword` varchar(255) NOT NULL,
   `code` mediumint(50),
-  `status` text
+  `status` text,
+  `investmentamount` varchar(255) NOT NULL,
+  `currentprice` varchar(255) NOT NULL,
+  `referralbonus` varchar(255) NOT NULL,
+  `totalbalance` varchar(255) NOT NULL
+
 
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
 
 -- Indexes for dumped tables
+
 --
-INSERT INTO `usertable` (`name`, `email`, `password`, `code`, `status`)
-                        values('$name', '$email', '$encpass', '$code', '$status');
---
+INSERT INTO `usertable` (`name`, `email`, `waddress`, `password`, `cpassword`, `code`, `status`,`investmentamount`, `currentprice`, `referralbonus`, `totalbalance`)
+values('$name', '$email', '$waddress', '$encpass', '$cpassword', '$code', '$status', '$iamount', '$cprice', '$rbonus', '$tbalance');
+
 -- Indexes for table `users`
 --
 ALTER TABLE `usertable`

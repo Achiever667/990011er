@@ -67,7 +67,7 @@ if($email != false && $password != false){
           </ul>
         </div>
         <ul class="navbar-nav navbar-right">
-       <li class="dropdown"><h5>Welcome, <span><?php echo $fetch_info['name'] ?></span></h5></li>
+       <li class="dropdown"><h5>Hi, <span><?php echo $fetch_info['name'] ?></span></h5></li>
           <li class="dropdown"><a href="#" data-toggle="dropdown"
               class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="User-assests/img/user.png"
                 class="user-img-radious-style"> <span class="d-sm-none d-lg-inline-block"></span></a>
@@ -107,7 +107,7 @@ if($email != false && $password != false){
             <li class="dropdown">
               <a href="investmentp.php" class="menu-toggle nav-link has-dropdown"><i data-feather="bar-chart"></i><span>Investment Plans</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="Unlimited.php">Unlimited</a></li>
+                <li><a class="nav-link" href="basic.php">Basic</a></li>
                 <li><a class="nav-link" href="standard.php">Standard</a></li>
                 <li><a class="nav-link" href="unlimited.php">Unlimited</a></li>
                 <li><a class="nav-link" href="investmentp.php">Referral Bonus</a></li>
@@ -140,7 +140,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content" id="Unlimited">
                           <h5 class="font-15"> Unlimited</h5>
-                          <h2 class="mb-3 font-18 col-green"$>$100</h2>
+                          <h2 class="mb-3 font-18 col-green"$>$5000</h2>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -161,7 +161,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content" id="Unlimited">
                           <h5 class="font-15"> Unlimited</h5>
-                          <h2 class="mb-3 font-18 col-green"$>$100</h2>
+                          <h2 class="mb-3 font-18 col-green"$>$6000</h2>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -182,7 +182,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content" id="Unlimited">
                           <h5 class="font-15"> Unlimited</h5>
-                          <h2 class="mb-3 font-18 col-green"$>$100</h2>
+                          <h2 class="mb-3 font-18 col-green"$>$7000</h2>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -203,7 +203,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content" id="Unlimited">
                           <h5 class="font-15"> Unlimited</h5>
-                          <h2 class="mb-3 font-18 col-green"$>$100</h2>
+                          <h2 class="mb-3 font-18 col-green"$>$8000</h2>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -226,7 +226,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content" id="Unlimited">
                           <h5 class="font-15"> Unlimited</h5>
-                          <h2 class="mb-3 font-18 col-green"$>$100</h2>
+                          <h2 class="mb-3 font-18 col-green"$>$9000</h2>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -247,7 +247,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content" id="Unlimited">
                           <h5 class="font-15"> Unlimited</h5>
-                          <h2 class="mb-3 font-18 col-green"$>$100</h2>
+                          <h2 class="mb-3 font-18 col-green"$>$10,000</h2>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -268,7 +268,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content" id="Unlimited">
                           <h5 class="font-15"> Unlimited</h5>
-                          <h2 class="mb-3 font-18 col-green"$>$100</h2>
+                          <h2 class="mb-3 font-18 col-green"$>$11,000</h2>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -289,7 +289,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content" id="Unlimited">
                           <h5 class="font-15"> Unlimited</h5>
-                          <h2 class="mb-3 font-18 col-green"$>$100</h2>
+                          <h2 class="mb-3 font-18 col-green"$>$12,000</h2>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">

@@ -167,7 +167,7 @@
 					<div class="col-12 text-center">
 						<div class="single-page-title">
 							<h2>Get In Touch</h2>
-							<p>Lorem ipsum dolor sit amet</p>
+							<p>We are ready to fly with you</p>
 						</div>
 					</div>
 				</div>
@@ -278,7 +278,7 @@
 				<div class="col-lg-7 mx-auto">
 					<div class="contact-form-wrapper">
 						<div class="contact-form">
-							<form id="contact-form" class="form" name="enq" method="POST" action="http://skullysmusic.com/tm/ft/bt/Connext Coin Hub-preview3/Connext Coin Hub/form-process.php">
+							<form id="contact-form" class="form" name="enq" method="POST" action="http://skullysmusic.com/tm/ft/bt/ConnextCoinHub-preview3/Connext Coin Hub/form-process.php">
 								<div class="row">
 									<div class="form-group col-12 mb-3">
 										<label>First Name:</label>
@@ -325,6 +325,8 @@
 	<!-- END GOOGLE MAP -->
 	
     <!-- START FOOTER -->
+   
+    <!-- START FOOTER -->
     <footer>
         <!--Footer top -->
         <div class="footer-top overlay section-back-image-2" data-background="assets/img/bg/slide1.jpg">
@@ -343,7 +345,7 @@
 							</a>
                         </div>
                         <div class="about mb-2">
-                            <p>Lorem ipsum dolor sit ametconsect etur adipiscing elit, sed do eiusmod tempor incididunt ut labo reetdolor emagna aliqua. Ut enim ad minimv eniam, quis nostrud exerc itationul amco laboris nisi ut aliquip exeallg commodo consequat.</p>
+                            <p>We are here to serve you in making the adquate use of your invest to give you our customers the best improve you can dream of. Thanks,  Subscribe with us to get our news letters and free point signals.</p>
                         </div>
                         <div class="footer-news">
 							<form action="#">
@@ -372,36 +374,6 @@
 								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Market Price </a></li>
 							</ul>
 						</div>	
-                    </div>
-                    <!-- End Widget -->
-                    <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-0 mb-5 footer-widget">
-                        <div class="footer-section-title col-12 no-padding">
-                            <h3>latest Post</h3>
-                        </div>
-                        <!-- END SECTION TITLE -->
-						<div class="col-12 footer-widget-inner recentPost">
-							<div class="singleRecpost">
-								<img src="assets/img/blog/1.jpg" alt="" class="img-fluid">
-								<h6 class="recTitle">
-									<a href="#">Lorem ipsum dolor sit amet, consectetuer.</a>
-								</h6>
-								<p class="posted-on">3 DEC 2018</p>
-							</div>
-							<div class="singleRecpost">
-								<img src="assets/img/blog/2.jpg" alt="" class="img-fluid">
-								<h6 class="recTitle">
-									<a href="#">Lorem ipsum dolor sit amet, consectetuer.</a>
-								</h6>
-								<p class="posted-on">4 DEC 2018</p>
-							</div>
-							<div class="singleRecpost">
-								<img src="assets/img/blog/3.jpg" alt="" class="img-fluid">
-								<h6 class="recTitle">
-									<a href="#">Lorem ipsum dolor sit amet, consectetuer.</a>
-								</h6>
-								<p class="posted-on">5 DEC 2018</p>
-							</div>
-						</div>
                     </div>
                     <!-- End Widget -->
                     <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-0 footer-widget">
@@ -437,18 +409,22 @@
 									<p>Mon - Sun : 09:00 - 18:00</p>
 								</div>
 							</div>
+							</div>
 						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-0 footer-widget">
+
 						<div class="col-12 mt-4 footer-social-war">
 							<div class="footer-social">
 								<ul>
 									<li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>
-									<li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>
-									<li><a href="#"><i class="icofont icofont-social-youtube"></i></a></li>
+									<li><a href="#"><i class="icofont icofont-social-telegram"></i></a></li>
+									<li><a href="#"><i class="icofont icofont-social-whatsapp"></i></a></li>
 									<li><a href="#"><i class="icofont icofont-social-google-plus"></i></a></li>
 								</ul>
 							</div>
 						</div>
                     </div>
+					</div>
                     <!-- End Widget -->
                 </div>
             </div>
@@ -473,8 +449,7 @@
         </div>
 		
     </footer>
-    <!-- END FOOTER -->
-	
+
 	<!-- Latest jQuery -->
     <script src="assets/js/jquery-2.2.4.min.js"></script>
     <!-- popper js -->

@@ -67,7 +67,7 @@ if($email != false && $password != false){
           </ul>
         </div>
         <ul class="navbar-nav navbar-right">
-       <li class="dropdown"><h5>Welcome, <span><?php echo $fetch_info['name'] ?></span></h5></li>
+       <li class="dropdown"><h5>Hi, <span><?php echo $fetch_info['name'] ?></span></h5></li>
           <li class="dropdown"><a href="#" data-toggle="dropdown"
               class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="User-assests/img/user.png"
                 class="user-img-radious-style"> <span class="d-sm-none d-lg-inline-block"></span></a>
@@ -107,10 +107,10 @@ if($email != false && $password != false){
             <li class="dropdown">
               <a href="investmentp.php" class="menu-toggle nav-link has-dropdown"><i data-feather="bar-chart"></i><span>Investment Plans</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="investmentp.php">Basic</a></li>
-                <li><a class="nav-link" href="investmentp.php">Standard</a></li>
-                <li><a class="nav-link" href="investmentp.php">Unlimited</a></li>
-                <li><a class="nav-link" href="investmentp.php">Referral Bonus</a></li>
+                <li><a class="nav-link" href="basic.php">Basic</a></li>
+                <li><a class="nav-link" href="standard.php">Standard</a></li>
+                <li><a class="nav-link" href="unlimited.php">Unlimited</a></li>
+                <!-- <li><a class="nav-link" href="investmentp.php">Referral Bonus</a></li> -->
 
               </ul>
             </li>
@@ -141,7 +141,7 @@ if($email != false && $password != false){
                         <div class="card-content" id="basic">
                           <h5 class="font-15"> Basic</h5>
                           <h2 class="mb-3 font-18"$>$100 - $2999</h2>
-                          <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="invest.php"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
+                          <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="basic.php"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -163,7 +163,7 @@ if($email != false && $password != false){
                         <div class="card-content">
                           <h5 class="font-15"> Standard</h5>
                           <h2 class="mb-3 font-18">$3000 - $4999</h2>
-                          <p class="mb-0"><span class="col-green">05%</span> Increase per day for 5 days    <span><a href="invest.php"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
+                          <p class="mb-0"><span class="col-green">05%</span> Increase per day for 5 days    <span><a href="standard.php"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
@@ -186,7 +186,7 @@ if($email != false && $password != false){
                           <h5 class="font-15">Unlimited</h5>
                           <h2 class="mb-3 font-18">$5000   Unlimited</h2>
                           <p class="mb-0"><span class="col-green">10%</span>
-                            Increase per day for 5 days <span><a href="invest.php"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
+                            Increase per day for 5 days <span><a href="unlimited.php"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
                         </div>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">

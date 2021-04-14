@@ -65,8 +65,8 @@
 							<ul>
 								<li><a href="#"><i class="icofont icofont-login"></i> Login </a></li>
 								<li><a href="#"><i class="icofont icofont-user-alt-5"></i> Register </a></li>
-								<li><a href="#"><i class="icofont icofont-hand-drag2"></i> Help </a></li>
-								<li><a href="#"><i class="icofont icofont-live-support"></i> Support </a></li>
+								<!-- <li><a href="#"><i class="icofont icofont-hand-drag2"></i> Help </a></li>
+								<li><a href="#"><i class="icofont icofont-live-support"></i> Support </a></li> -->
 							</ul>
 						</div>
 					</div> 
@@ -94,7 +94,7 @@
 								<i class="fa fa-envelope-open"></i>
 							</div>
 							<p>Email Us</p>
-                            <h6>info@yoursite.com</h6>
+                            <h6>info@connext.com</h6>
                         </div>
 						<div class="header-info-box">
                             <div class="header-info-icon">
@@ -104,7 +104,7 @@
                             <h6>123-456-0975</h6>
                         </div>
 						<div class="header-info-box">
-                            <a href="#" class="quote-btn">Get Started <i class="icofont icofont-caret-right"></i></a>
+                            <a href="login-user.php" class="quote-btn">Get Started <i class="icofont icofont-caret-right"></i></a>
                         </div>
 					</div>
 					<!-- end col -->
@@ -166,7 +166,7 @@
 					<div class="col-12 text-center">
 						<div class="single-page-title">
 							<h2>Bitfonix Services</h2>
-							<p>Lorem ipsum dolor sit amet</p>
+							<p>We are ready to fly with you</p>
 						</div>
 					</div>
 				</div>
@@ -208,7 +208,7 @@
 								</div>
 							</div>
 							<div class="single-service-dec">
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.
+							<p>As Bitcoin reaches new records, it is also guzzling epic levels of energy and its environmental footprint is on the rise.</p>
 									<a href="#">[...]</a>
 								</p>
 							</div>	
@@ -231,7 +231,7 @@
 								</div>
 							</div>
 							<div class="single-service-dec">
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.
+							<p>Findings in the latest BIS survey unveils that central banks are in no hurry to issue a digital version of their currency — assuring us that cash remains a stable lifeline amidst digital falls.</p>
 									<a href="#">[...]</a>
 								</p>
 							</div>	
@@ -254,7 +254,7 @@
 								</div>
 							</div>
 							<div class="single-service-dec">
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.
+							<p>One of the best and safest coin system is high in price but offers you the best money exchange.</p>
 									<a href="#">[...]</a>
 								</p>
 							</div>	
@@ -277,7 +277,7 @@
 								</div>
 							</div>
 							<div class="single-service-dec">
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.
+							<p>Cryptocurrency trading technology marketing is a puzzle to solve in itself, many companies are using video marketing for their token sales platforms and applications. Bitcoin based payments are powering many companies to offer new and innovative way of solving current problems.</p>
 									<a href="#">[...]</a>
 								</p>
 							</div>	
@@ -300,7 +300,7 @@
 								</div>
 							</div>
 							<div class="single-service-dec">
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.
+							<p>A money transaction system without any charge. It is aproved system of tecnological increase in the market space</p>
 									<a href="#">[...]</a>
 								</p>
 							</div>	
@@ -323,7 +323,7 @@
 								</div>
 							</div>
 							<div class="single-service-dec">
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.
+							<p>Be your first security as we are end-to-end encrypted in our transactions, and manage what you invest.</p>
 									<a href="#">[...]</a>
 								</p>
 							</div>	
@@ -339,13 +339,14 @@
     <!-- END SERVICE SECTION -->
 	
 	<!-- START CALLTOACTION SECTION -->
+	<!-- START CALLTOACTION SECTION -->
 	<section id="calltoaction" class="calltoaction-padding section-padding bg-theme">
 		<div class="auto-container">
 			<div class="row">
 				<div class="col-lg-8 col-md-8 col-sm-12 col-12 mb-lg-0 mb-md-4 mb-sm-4 mb-4">
 					<div class="calltoaction-two-wrap">
 						<h4>Need More Service?</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do<br>incididunt ut labore et dolore magna aliqua.</p>
+						<p>Just sign Up and contact our customer service.</p>
 					</div>
 				</div>
 				<!-- end col -->
@@ -372,13 +373,13 @@
                                  <i class="fab fa-gg-circle"></i>
                                 </div>
 								<div class="footer-logo-text">
-                                    <h3>Bitfonix</h3>
-                                    <p>Bitcoin Trading Template</p>
+                                    <h3>Connext Coin Hub</h3>
+                                    <p>Connext Coin Hub</p>
                                 </div>
 							</a>
                         </div>
                         <div class="about mb-2">
-                            <p>Lorem ipsum dolor sit ametconsect etur adipiscing elit, sed do eiusmod tempor incididunt ut labo reetdolor emagna aliqua. Ut enim ad minimv eniam, quis nostrud exerc itationul amco laboris nisi ut aliquip exeallg commodo consequat.</p>
+                            <p>We are here to serve you in making the adquate use of your invest to give you our customers the best improve you can dream of. Thanks,  Subscribe with us to get our news letters and free point signals.</p>
                         </div>
                         <div class="footer-news">
 							<form action="#">
@@ -407,36 +408,6 @@
 								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Market Price </a></li>
 							</ul>
 						</div>	
-                    </div>
-                    <!-- End Widget -->
-                    <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-0 mb-5 footer-widget">
-                        <div class="footer-section-title col-12 no-padding">
-                            <h3>latest Post</h3>
-                        </div>
-                        <!-- END SECTION TITLE -->
-						<div class="col-12 footer-widget-inner recentPost">
-							<div class="singleRecpost">
-								<img src="assets/img/blog/1.jpg" alt="" class="img-fluid">
-								<h6 class="recTitle">
-									<a href="#">Lorem ipsum dolor sit amet, consectetuer.</a>
-								</h6>
-								<p class="posted-on">3 DEC 2018</p>
-							</div>
-							<div class="singleRecpost">
-								<img src="assets/img/blog/2.jpg" alt="" class="img-fluid">
-								<h6 class="recTitle">
-									<a href="#">Lorem ipsum dolor sit amet, consectetuer.</a>
-								</h6>
-								<p class="posted-on">4 DEC 2018</p>
-							</div>
-							<div class="singleRecpost">
-								<img src="assets/img/blog/3.jpg" alt="" class="img-fluid">
-								<h6 class="recTitle">
-									<a href="#">Lorem ipsum dolor sit amet, consectetuer.</a>
-								</h6>
-								<p class="posted-on">5 DEC 2018</p>
-							</div>
-						</div>
                     </div>
                     <!-- End Widget -->
                     <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-0 footer-widget">
@@ -472,18 +443,22 @@
 									<p>Mon - Sun : 09:00 - 18:00</p>
 								</div>
 							</div>
+							</div>
 						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-0 footer-widget">
+
 						<div class="col-12 mt-4 footer-social-war">
 							<div class="footer-social">
 								<ul>
 									<li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>
-									<li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>
-									<li><a href="#"><i class="icofont icofont-social-youtube"></i></a></li>
+									<li><a href="#"><i class="icofont icofont-social-telegram"></i></a></li>
+									<li><a href="#"><i class="icofont icofont-social-whatsapp"></i></a></li>
 									<li><a href="#"><i class="icofont icofont-social-google-plus"></i></a></li>
 								</ul>
 							</div>
 						</div>
                     </div>
+					</div>
                     <!-- End Widget -->
                 </div>
             </div>
@@ -501,14 +476,13 @@
                         </ul>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 copyright-text text-center text-lg-right text-md-right">
-                        <p><a href="https://www.templateshub.net" target="_blank">Templates Hub</a></p>
+                        <p><a href="index.php" target="_blank">Connext Coin Hub</a></p>
                     </div>
                 </div>
             </div>
         </div>
 		
-    </footer>
-    <!-- END FOOTER -->
+    </footer><!-- END FOOTER -->
 	
 	<!-- Latest jQuery -->
     <script src="assets/js/jquery-2.2.4.min.js"></script>

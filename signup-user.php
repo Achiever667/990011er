@@ -1,4 +1,11 @@
 <?php require_once "controllerUserData.php"; ?>
+<?php
+
+// use PHPMailer\PHPMailer\PHPMailer;
+// use PHPMailer\PHPMailer\Exception;
+
+// require 'vendor/autoload.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +22,7 @@
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Google Font  -->
      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i|Roboto:400,400i,500,500i,700,700i" rel="stylesheet"> 
+
     <!-- icofont icon -->
     <link rel="stylesheet" href="assets/css/icofont.css">	
     <!-- font awesome icon -->
@@ -40,6 +48,8 @@
 
 	<!-- Usage boxicon -->
 	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    
 
 </head>
 
@@ -199,24 +209,31 @@
                         <input class="form-control" type="text" name="name" placeholder="Full Name" required value="<?php echo $name ?>">
                     </div>
                     <div class="form-group">
-                        <input class="form-control" type="email" name="email" placeholder="Email Address" required value="<?php echo $email ?>">
+                        <input class="form-control" type="email" name="email" placeholder="Email Address" id='email' required value="<?php echo $email ?>">
+                    </div>
+					
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="waddress" placeholder="Wallet Address" required value="<?php echo $email ?>">
                     </div>
                     <div class="form-group">
-                        <input class="form-control" type="password" name="password" placeholder="Password" required>
+                        <input class="form-control" type="password" name="password" placeholder="Password" id='password' required>
                     </div>
                     <div class="form-group">
                         <input class="form-control" type="password" name="cpassword" placeholder="Confirm password" required>
                     </div>
                     <div class="form-group">
-                        <input class="form-control button" type="submit" name="signup" value="Signup">
+                    <input class="form-control button" type="submit" name="signup" id="signup"  value="Signup"/>
+
+                        <!-- <input class="form-control button" type="submit" name="signup" value="Signup" id="signup" onclick="sendEmail()"> -->
                     </div>
+                    <p id="demo"></p>
                     <div class="link login-link text-center">Already a member? <a href="login-user.php">Login here</a></div>
                 </form>
             </div>
         </div>
     </div>
-    
-
+</div>    
+   
 
 	<!-- Latest jQuery -->
     <script src="assets/js/jquery-2.2.4.min.js"></script>
