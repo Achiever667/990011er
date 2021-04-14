@@ -130,8 +130,9 @@
 										</li>
 									<li class="sevices"><a href="service.php" class="nav-link"><i class="icofont icofont-worker"></i>Services</a>
 									</li>
-									<li class="News"><a href="blog.php" class="nav-link"><i class="icofont icofont-news"></i>News<a>
+									<li class="News"><a href="about.php" class="nav-link"><i class="icofont icofont-news"></i>Affiliate<a>
 									</li>
+
 									<li><a href="contact.php" class="nav-link"><i class="icofont icofont-ui-contact-list"></i>Contact</a></li>
 									<li class="dropdown"><a class="nav-link" href="about.php"><i class="icofont icofont-people"></i>About Us</a>
 										<ul class="dropdown-menu">
@@ -444,6 +445,17 @@
 								</div>
 							</div>
 							</div>
+							<div class="single-fcontact">
+								<div class="single-fcontact-icon">
+									<i class="icofont icofont-eye-alt"></i>
+								</div>
+								<div class="single-fcontact-des">
+									<h6>Started Date:</h6>
+									<p>28 June, 2017</p>
+								</div>
+							</div>
+							</div>
+						
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-0 footer-widget">
 

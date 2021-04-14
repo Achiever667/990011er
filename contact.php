@@ -130,8 +130,9 @@
 										</li>
 									<li class="sevices"><a href="service.php" class="nav-link"><i class="icofont icofont-worker"></i>Services</a>
 									</li>
-									<li class="News"><a href="blog.php" class="nav-link"><i class="icofont icofont-news"></i>News<a>
+									<li class="News"><a href="about.php" class="nav-link"><i class="icofont icofont-news"></i>Affiliate<a>
 									</li>
+
 									<li><a href="contact.php" class="nav-link"><i class="icofont icofont-ui-contact-list"></i>Contact</a></li>
 									<li class="dropdown"><a class="nav-link" href="about.php"><i class="icofont icofont-people"></i>About Us</a>
 										<ul class="dropdown-menu">
@@ -210,8 +211,8 @@
 						</div>
 						<div class="single-address-dec">
 							<h4>Write a mail</h4>
-							<p>Email: info@yoursite.com</p>
-							<p>Email: info@yourname.com</p>
+							<p>Email: info@connextcoin.com</p>
+							<p>Email: info@connextcoin.com</p>
 						</div>
 						<div class="single-address-link">
 							<a href="#">quick Send</a>
@@ -226,8 +227,8 @@
 						</div>
 						<div class="single-address-dec">
 							<h4>Give a call</h4>
-							<p>Phone: 123-456-0975</p>
-							<p>Phone: 123-456-0975</p>
+							<p>Phone:+1 724-638-7644</p>
+							<p>Phone:+1 724-638-7644</p>
 						</div>
 						<div class="single-address-link">
 							<a href="#">quick call</a>
@@ -257,8 +258,8 @@
 						</div>
 						<div class="single-address-dec">
 							<h4>Lets's have a chat</h4>
-							<p>Telephone: 123-456-0975</p>
-							<p>Fax: 321-654-0975</p>
+							<p>Telephone:+1 724-638-7644</p>
+							<p>Fax: +1 724-638-7644</p>
 						</div>
 						<div class="single-address-link">
 							<a href="#">click here</a>
@@ -407,6 +408,16 @@
 								<div class="single-fcontact-des">
 									<h6>Door Open:</h6>
 									<p>Mon - Sun : 09:00 - 18:00</p>
+								</div>
+							</div>
+							</div>
+							<div class="single-fcontact">
+								<div class="single-fcontact-icon">
+									<i class="icofont icofont-eye-alt"></i>
+								</div>
+								<div class="single-fcontact-des">
+									<h6>Started Date:</h6>
+									<p>28 June, 2017</p>
 								</div>
 							</div>
 							</div>

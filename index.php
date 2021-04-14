@@ -67,8 +67,7 @@
 							<ul>
 								<li><a href="login-user.php"><i class="icofont icofont-login"></i> Login </a></li>
 								<li><a href="signup-user.php"><i class="icofont icofont-user-alt-5"></i> Register </a></li>
-								<!-- <li><a href="#"><i class="icofont icofont-hand-drag2"></i> Help </a></li> -->
-								<!-- <li><a href="#"><i class="icofont icofont-live-support"></i> Support </a></li> -->
+								
 							</ul>
 						</div>
 					</div> 
@@ -96,14 +95,14 @@
 								<i class="fa fa-envelope-open"></i>
 							</div>
 							<p>Email Us</p>
-                            <h6>info@yoursite.com</h6>
+                            <h6>info@connextcoin.com</h6>
                         </div>
 						<div class="header-info-box">
                             <div class="header-info-icon">
 								<i class="icofont icofont-phone"></i>
 							</div>
 							<p>Call Us</p>
-                            <h6>123-456-0975</h6>
+                            <h6>+1 724-638-7644</h6>
                         </div>
 						<div class="header-info-box">
                             <a href="#" class="quote-btn">Get Started <i class="icofont icofont-caret-right"></i></a>
@@ -134,14 +133,11 @@
 										</li>
 									<li class="sevices"><a href="service.php" class="nav-link"><i class="icofont icofont-worker"></i>Services</a>
 									</li>
-									<li class="News"><a href="blog.php" class="nav-link"><i class="icofont icofont-news"></i>News<a>
+									<li class="News"><a href="about.php" class="nav-link"><i class="icofont icofont-news"></i>Affiliate<a>
 									</li>
 									<li><a href="contact.php" class="nav-link"><i class="icofont icofont-ui-contact-list"></i>Contact</a></li>
-									<li class="dropdown"><a class="nav-link" href="about.php"><i class="icofont icofont-people"></i>About Us</a>
-										<ul class="dropdown-menu">
-											<li><a href="about-us.php">About Us</a></li>
-											<li><a href="team.php">Our Team</a></li>
-										</ul>
+									<li ><a class="nav-link" href="about.php"><i class="icofont icofont-people"></i>About Us</a>
+
 									</li>
 								</ul>
 							</nav>
@@ -180,7 +176,7 @@
 							<div class="col-lg-7 col-md-10 col-12 mr-auto text-left">
 								<div class="home-single-slide-dec">
 									<h2>Secure & easy way to <br> buy & sell bitcoin</h2>
-									<p class="text-capitalize">Gold is a great way to preserve wealth, but it is hard to move around. You do need some kind of alternative and Bitcoin fits the bill. And that is why we buy and sell Bitcoin</p>
+									<p class="text-capitalize">Connext is a cryptocurrency company that have acknowledged the existence of Cryptocurrency trading and is one the top best coin trading Company in the world</p>
 									<div class="home-single-slide-button">
 										<a href="#" class="btn-style btn-filled">Get Started </a>
 										<a href="#" class="btn-style btn-border">Download PDF</a>
@@ -625,28 +621,14 @@ foreach($json as $obj)
 					<div class="row text-center counter-wrapper">	 
 						<div class="col-lg-6 col-md-6 col-12 counter-wrapper-inner">
 							<div class="single-counter">
-								<h3 class="timer">56</h3>
+								<h3 class="timer">563<span>k</span></h3>
 								<p class="text-warning">Bitcoin</p>
 							</div>							
 						</div>
 						<!-- end col -->	 
 						<div class="col-lg-6 col-md-6 col-12 counter-wrapper-inner">
 							<div class="single-counter">
-								<h3 class="timer">95</h3>
-								<p class="text-warning">Wallet</p>
-							</div>							
-						</div>
-						<!-- end col -->	 
-						<div class="col-lg-6 col-md-6 col-12 counter-wrapper-inner">
-							<div class="single-counter">
-								<h3 class="timer">85</h3>
-								<p class="text-warning">ATM</p>
-							</div>							
-						</div>
-						<!-- end col -->	 
-						<div class="col-lg-6 col-md-6 col-12 counter-wrapper-inner">
-							<div class="single-counter">
-								<h3 class="timer">68</h3>
+								<h3 class="timer">2268<span>k</span></h3>
 								<p class="text-warning">Client</p>
 							</div>							
 						</div>
@@ -1175,7 +1157,7 @@ foreach($json as $obj)
 				<div class="col-lg-4 col-md-4 col-12">
 					<div class="single-pricing">
 						<div class="single-pricing-head text-center">
-							<span class="price"><sup>$</sup><span class="price-digit">50000</span></span>
+							<span class="price"><sup>$</sup><span class="price-digit">5000</span></span>
 							<h5>Unlimited Plan</h5>
 						</div>
 						<div class="single-pricing-body">
@@ -1242,7 +1224,7 @@ foreach($json as $obj)
 														<!-- end single testimonial -->
 														<div class="single-testimonial">
 								<div class="single-testimonial-image">
-									<img class="img-fluid rounded-circle" src="assets/img/team/person2.jpg" alt="">
+									<img class="img-fluid rounded-circle" src="assets/img/download.jpg" alt="">
 								</div>
 								<div class="single-testimonial-content">
 									<p>@Austin Gabrial I never beleived that i can withdraw my referral bonus once i got the starter plan without making a referral that is great. Thanks man </p>
@@ -1255,7 +1237,7 @@ foreach($json as $obj)
 														<!-- end single testimonial -->
 														<div class="single-testimonial">
 								<div class="single-testimonial-image">
-									<img class="img-fluid rounded-circle" src="assets/img/team/person2.jpg" alt="">
+									<img class="img-fluid rounded-circle" src="assets/img/hajab.jpg" alt="">
 								</div>
 								<div class="single-testimonial-content">
 									<p>Just got my third payment thanks Connext Coin Hub </p>
@@ -1268,13 +1250,13 @@ foreach($json as $obj)
 														<!-- end single testimonial -->
 														<div class="single-testimonial">
 								<div class="single-testimonial-image">
-									<img class="img-fluid rounded-circle" src="assets/img/team/person2.jpg" alt="">
+									<img class="img-fluid rounded-circle" src="assets/img/imrs.webp" alt="">
 								</div>
 								<div class="single-testimonial-content">
 									<p>Was delayed in payment but i finally got paid thanks </p>
 								</div>
 								<div class="single-testimonial-meta">
-									<p>- Periera Henky</p>
+									<p>- Rukuya_mil G.</p>
 								</div>
 							</div>
 							<!-- end single testimonial -->
@@ -1411,7 +1393,7 @@ foreach($json as $obj)
 								</div>
 								<div class="single-fcontact-des">
 									<h6>Phone Number:</h6>
-									<p>123-456-0975</p>
+									<p>+1 724-638-7644</p>
 								</div>
 							</div>
 							<div class="single-fcontact">
@@ -1421,6 +1403,16 @@ foreach($json as $obj)
 								<div class="single-fcontact-des">
 									<h6>Door Open:</h6>
 									<p>Mon - Sun : 09:00 - 18:00</p>
+								</div>
+							</div>
+							</div>
+							<div class="single-fcontact">
+								<div class="single-fcontact-icon">
+									<i class="icofont icofont-eye-alt"></i>
+								</div>
+								<div class="single-fcontact-des">
+									<h6>Started Date:</h6>
+									<p>28 june, 2017</p>
 								</div>
 							</div>
 							</div>

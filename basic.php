@@ -145,7 +145,7 @@ if($email != false && $password != false){
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
                         <div class="banner-img">
-                        <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="invest.php"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
+                        <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="https://commerce.coinbase.com/checkout/437f4243-7234-4865-aeff-fde177fe1865"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
                         </div>
                       </div>
                     </div>
@@ -166,7 +166,7 @@ if($email != false && $password != false){
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
                         <div class="banner-img">
-                        <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="invest.php"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
+                        <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="https://commerce.coinbase.com/checkout/582d6d4c-dbd4-4a32-bdbd-3317338339ee"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
                         </div>
                       </div>
                     </div>
@@ -187,7 +187,7 @@ if($email != false && $password != false){
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
                         <div class="banner-img">
-                        <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="invest.php"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
+                        <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="https://commerce.coinbase.com/checkout/3347708b-fc42-4dd4-a525-226fd27128ad"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
                         </div>
                       </div>
                     </div>

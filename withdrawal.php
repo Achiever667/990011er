@@ -137,7 +137,7 @@
         <aside id="sidebar-wrapper">
           <div class="sidebar-brand">
             <a href="index.html"> <img alt="image"  src="User-assests/img/connext_logo.png" class="header-logo" /> <span
-                class="logo-name">Connext</span>
+                class="logo-name">Connext Coin</span>
             </a>
           </div>
           <ul class="sidebar-menu">
