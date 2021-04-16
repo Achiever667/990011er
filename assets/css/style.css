@@ -2778,7 +2778,7 @@ footer {
 }
 
 .footer-section-title h3 {
-	color: #fff;
+	color: #ba1dc9;
 	text-transform: uppercase;
 	font-size: 20px;
 	margin: 0;
@@ -2832,7 +2832,7 @@ footer .mailing-list {
 }
 
 .footer-logo-text h3 {
-	color: #fff;
+	color: #ba1dc9;
 	text-transform: uppercase;
 	font-size: 20px;
 	margin: 0;
@@ -2975,10 +2975,13 @@ ul.quick-link-list li a:hover:after {
 	color: #fff;
 	margin-bottom: 5px;
 }
-
-.footer-social-war,
+.footer
+.footer-social-war
 .footer-social {
-	float: left;
+	top: 0;
+	position: absolute;
+	/* float: left; */
+	margin: 30px;
 	width: 100%;
 }
 

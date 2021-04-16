@@ -104,23 +104,24 @@
 						</div>
 					</div>
 					<!-- end col -->
+					
 					<div class="col-lg-7 col-md-12 col-sm-12 col-12">
 						<div class="header-info-box">
                             <div class="header-info-icon">
 								<i class="fa fa-envelope-open"></i>
 							</div>
 							<p>Email Us</p>
-                            <h6>info@yoursite.com</h6>
+                            <h6>info@connextinfo.com</h6>
                         </div>
 						<div class="header-info-box">
                             <div class="header-info-icon">
 								<i class="icofont icofont-phone"></i>
 							</div>
 							<p>Call Us</p>
-                            <h6>123-456-0975</h6>
+                            <h6>+1 724-638-7644</h6>
                         </div>
 						<div class="header-info-box">
-                            <a href="#" class="quote-btn">Get Started <i class="icofont icofont-caret-right"></i></a>
+                            <a href="login-user.php" class="quote-btn">Get Started <i class="icofont icofont-caret-right"></i></a>
                         </div>
 					</div>
 					<!-- end col -->
@@ -146,15 +147,11 @@
 										</li>
 									<li class="sevices"><a href="service.php" class="nav-link"><i class="icofont icofont-worker"></i>Services</a>
 									</li>
-									<li class="News"><a href="blog.php" class="nav-link"><i class="icofont icofont-news"></i>News<a>
+									<li class="News"><a href="about.php" class="nav-link"><i class="icofont icofont-news"></i>Affiliate<a>
 									</li>
 									<li><a href="contact.php" class="nav-link"><i class="icofont icofont-ui-contact-list"></i>Contact</a></li>
-									<li class="dropdown"><a class="nav-link" href="about.php"><i class="icofont icofont-people"></i>About Us</a>
-										<ul class="dropdown-menu">
-											<li><a href="about-us.php">About Us</a></li>
-											<li><a href="team.php">Our Team</a></li>
-										</ul>
-									</li>
+									<li><a class="nav-link" href="about.php"><i class="icofont icofont-people"></i>About Us</a></li>
+
 								</ul>
 							</nav>
 						</div>
@@ -214,6 +211,13 @@
 					
                     <div class="form-group">
                         <input class="form-control" type="text" name="waddress" placeholder="Wallet Address" required value="<?php echo $email ?>">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input class="form-control" type="country" name="country" placeholder="Country" required value="<?php echo $email ?>">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="phone" name="phoneNumber" placeholder="Phone Number" required value="<?php echo $email ?>">
                     </div>
                     <div class="form-group">
                         <input class="form-control" type="password" name="password" placeholder="Password" id='password' required>

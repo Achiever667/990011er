@@ -11,7 +11,8 @@ if(isset($_POST['signup'])){
     $name = mysqli_real_escape_string($con, $_POST['name']);
     $email = mysqli_real_escape_string($con, $_POST['email']);
     $waddress = mysqli_real_escape_string($con, $_POST['waddress']);
-    // $dompassword = mysqli_real_escape_string($con, $_POST['cpassword']);
+    $country = mysqli_real_escape_string($con, $_POST['country']);
+    $phoneNumber = mysqli_real_escape_string($con, $_POST['phoneNumber']);
     $password = mysqli_real_escape_string($con, $_POST['password']);
     $cpassword = mysqli_real_escape_string($con, $_POST['cpassword']);
     if($password !== $cpassword){
@@ -25,12 +26,15 @@ if(isset($_POST['signup'])){
     if(count($errors) === 0){
         $encpass = password_hash($password, PASSWORD_BCRYPT);
         $code = rand(999999, 111111);
+        $withdrawalAmount= "0";
         $iamount = "0";
         $cprice = "0";
         $rbonus = "0";
         $tbalance = "0";
-        $insert_data = "INSERT INTO usertable (name, email, waddress,  password, cpassword, code, status, investmentamount, currentprice, referralbonus, totalbalance)
-                        values('$name', '$email', '$waddress', '$encpass', '$cpassword', '$code', '$status', '$iamount', '$cprice', '$rbonus', '$tbalance')";
+        $insert_data = "INSERT INTO usertable (name, email, waddress, country,
+        phoneNumber, withdrawalAmount,  password, cpassword, code, status, investmentamount, currentprice, referralbonus, totalbalance)
+                        values('$name', '$email', '$waddress', '$country',
+'$phoneNumber', '$withdrawalAmount', '$encpass', '$cpassword', '$code', '$status', '$iamount', '$cprice', '$rbonus', '$tbalance')";
         $data_check = mysqli_query($con, $insert_data);
         if($data_check){
             
@@ -88,7 +92,7 @@ if(isset($_POST['signup'])){
             if($update_res){
                 $_SESSION['name'] = $name;
                 $_SESSION['email'] = $email;
-                header('location: home.php');
+                header('location: login-user.php');
                 exit();
             }else{
                 $errors['otp-error'] = "Failed while updating code!";
@@ -217,9 +221,10 @@ if(isset($_POST['signup'])){
     $id = $_POST['id'];
     $iamount = $_POST['investmentamount'];
     $cprice = $_POST['currentprice'];
+    $rbonus = $_POST['referralbonus'];
     $tbalance = $_POST['totalbalance'];
 
-    $query = "UPDATE usertable SET investmentamount='$iamount', currentprice='$cprice', totalbalance='$tbalance' WHERE id='$id' ";
+    $query = "UPDATE usertable SET investmentamount='$iamount', currentprice='$cprice', referralbonus='$rbonus', totalbalance='$tbalance' WHERE id='$id' ";
     $query_run = mysqli_query($con, $query);
 
     if($query_run)
@@ -235,6 +240,34 @@ if(isset($_POST['signup'])){
         header('Location: registeredusers.php'); 
     }
 }
+
+
+// withdrawal request
+  // Update user
+  if(isset($_POST['withdrawclick']))
+  {
+    $id = $_POST['id'];
+      $withdrawalAmount = $_POST['withdrawalAmount'];
+  
+      $query = "UPDATE usertable SET withdrawalAmount='$withdrawalAmount', WHERE id='$id' ";
+      $query_run = mysqli_query($con, $query);
+  
+      if($query_run)
+      {
+          $_SESSION['status'] = "Your Data is Updated";
+          $_SESSION['status_code'] = "success";
+          header('Location: withdrawrequest.php'); 
+      }
+      else
+      {
+          $_SESSION['status'] = "Your Data is NOT Updated";
+          $_SESSION['status_code'] = "error";
+          header('Location: withdrawrequest.php'); 
+      }
+  }
+
+
+
 
 
    //if login now button click

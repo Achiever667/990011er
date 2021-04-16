@@ -63,9 +63,9 @@
 					<div class="col-lg-4 col-md-12 col-sm-12 col-12">
 						<div class="info-menu">
 							<ul>
-								<li><a href="#"><i class="icofont icofont-login"></i> Login </a></li>
-								<li><a href="#"><i class="icofont icofont-user-alt-5"></i> Register </a></li>
-								<!-- <li><a href="#"><i class="icofont icofont-hand-drag2"></i> Help </a></li>
+							<li><a href="login-user.php"><i class="icofont icofont-login"></i> Login </a></li>
+								<li><a href="signup-user.php"><i class="icofont icofont-user-alt-5"></i> Register </a></li>
+							<!-- <li><a href="#"><i class="icofont icofont-hand-drag2"></i> Help </a></li>
 								<li><a href="#"><i class="icofont icofont-live-support"></i> Support </a></li> -->
 							</ul>
 						</div>
@@ -94,14 +94,14 @@
 								<i class="fa fa-envelope-open"></i>
 							</div>
 							<p>Email Us</p>
-                            <h6>info@connext.com</h6>
+                            <h6>info@connextinfo.com</h6>
                         </div>
 						<div class="header-info-box">
                             <div class="header-info-icon">
 								<i class="icofont icofont-phone"></i>
 							</div>
 							<p>Call Us</p>
-                            <h6>123-456-0975</h6>
+                            <h6>+1 724-638-7644</h6>
                         </div>
 						<div class="header-info-box">
                             <a href="login-user.php" class="quote-btn">Get Started <i class="icofont icofont-caret-right"></i></a>
@@ -134,11 +134,7 @@
 									</li>
 
 									<li><a href="contact.php" class="nav-link"><i class="icofont icofont-ui-contact-list"></i>Contact</a></li>
-									<li class="dropdown"><a class="nav-link" href="about.php"><i class="icofont icofont-people"></i>About Us</a>
-										<ul class="dropdown-menu">
-											<li><a href="about-us.php">About Us</a></li>
-											<li><a href="team.php">Our Team</a></li>
-										</ul>
+									<li><a class="nav-link" href="about.php"><i class="icofont icofont-people"></i>About Us</a>
 									</li>
 								</ul>
 							</nav>
@@ -364,7 +360,7 @@
     <!-- START FOOTER -->
     <footer>
         <!--Footer top -->
-        <div class="footer-top overlay section-back-image-2" data-background="assets/img/bg/slide1.jpg">
+        <div class="footer-top overlay section-back-image-2" data-background="assets/img/bg/counterbg2.jpg">
             <div class="auto-container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-5 mb-5 footer-widget">
@@ -401,12 +397,12 @@
                         <!-- END SECTION TITLE -->
 						<div class="col-12 footer-widget-inner">
 							<ul class="quick-link-list">
-								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Home Page</a></li>
-								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Our Members</a></li>
-								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Client feedback</a></li>
-								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Buy & Sell</a></li>
-								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Bitcoin Trade</a></li>
-								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Market Price </a></li>
+								<li><a href="index.php"><i class="fa fa-chevron-circle-right"></i> Home Page</a></li>
+								<li><a href="#team"><i class="fa fa-chevron-circle-right"></i> Our Members</a></li>
+								<li><a href="#testimonial"><i class="fa fa-chevron-circle-right"></i> Client feedback</a></li>
+								<!-- <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Buy & Sell</a></li>
+								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Bitcoin Trade</a></li> -->
+								<li><a href="#price"><i class="fa fa-chevron-circle-right"></i> Market Price </a></li>
 							</ul>
 						</div>	
                     </div>
@@ -432,7 +428,7 @@
 								</div>
 								<div class="single-fcontact-des">
 									<h6>Phone Number:</h6>
-									<p>123-456-0975</p>
+									<p>+1 724-638-7644</p>
 								</div>
 							</div>
 							<div class="single-fcontact">
@@ -451,21 +447,20 @@
 								</div>
 								<div class="single-fcontact-des">
 									<h6>Started Date:</h6>
-									<p>28 June, 2017</p>
+									<p>28 june, 2017</p>
 								</div>
 							</div>
 							</div>
-						
-						</div>
+						<!-- </div> -->
 						<div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-0 footer-widget">
 
 						<div class="col-12 mt-4 footer-social-war">
-							<div class="footer-social">
+							<div class="footer-social"> 
 								<ul>
-									<li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>
-									<li><a href="#"><i class="icofont icofont-social-telegram"></i></a></li>
-									<li><a href="#"><i class="icofont icofont-social-whatsapp"></i></a></li>
-									<li><a href="#"><i class="icofont icofont-social-google-plus"></i></a></li>
+									<!-- <li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li> -->
+									<li><a href="https://t.me/connext_coin"><i class="icofont icofont-social-telegram"></i></a></li>
+									<li><a href="https://wa.me/17246387644"><i class="icofont icofont-social-whatsapp"></i></a></li>
+									<!-- <li><a href="#"><i class="icofont icofont-social-google-plus"></i></a></li> -->
 								</ul>
 							</div>
 						</div>
@@ -494,8 +489,20 @@
             </div>
         </div>
 		
-    </footer><!-- END FOOTER -->
-	
+    </footer>
+	<!-- END FOOTER -->
+		<!--Start of Tawk.to Script-->
+		<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60771248067c2605c0c26977/1f38huruf';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
 	<!-- Latest jQuery -->
     <script src="assets/js/jquery-2.2.4.min.js"></script>
     <!-- popper js -->

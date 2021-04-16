@@ -24,6 +24,9 @@ CREATE TABLE `usertable` (
   `name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `waddress` varchar(255) NOT NULL,
+  `country` varchar(255) NOT NULL,
+  `phoneNumber` varchar(255) NOT NULL,
+  `withdrawalAmount` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `cpassword` varchar(255) NOT NULL,
   `code` mediumint(50),
@@ -41,8 +44,10 @@ CREATE TABLE `usertable` (
 -- Indexes for dumped tables
 
 --
-INSERT INTO `usertable` (`name`, `email`, `waddress`, `password`, `cpassword`, `code`, `status`,`investmentamount`, `currentprice`, `referralbonus`, `totalbalance`)
-values('$name', '$email', '$waddress', '$encpass', '$cpassword', '$code', '$status', '$iamount', '$cprice', '$rbonus', '$tbalance');
+INSERT INTO `usertable` (`name`, `email`, `waddress`, `country`,
+`phoneNumber`, `withdrawalAmount`, `password`, `cpassword`, `code`, `status`,`investmentamount`, `currentprice`, `referralbonus`, `totalbalance`)
+values('$name', '$email', '$waddress', '#country',
+'$phoneNumber', '$encpass', '$cpassword', '$withdrawalAmount', '$code', '$status', '$iamount', '$cprice', '$rbonus', '$tbalance');
 
 -- Indexes for table `users`
 --

@@ -1,5 +1,4 @@
 <?php require_once "controllerUserData.php"; ?>
-
 <?php 
 $email = $_SESSION['email'];
 $password = $_SESSION['password'];
@@ -34,7 +33,7 @@ if($email != false && $password != false){
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Admin | Home</title>
+  <title><?php echo $fetch_info['name'] ?> | Home</title>
   <!-- General CSS Files -->
   <link rel="stylesheet" href="User-assests/css/app.min.css">
   <!-- Template CSS -->
@@ -68,10 +67,10 @@ if($email != false && $password != false){
           </ul>
         </div>
         <ul class="navbar-nav navbar-right">
-       <li class="dropdown"><h5>Hi, <span>Admin</span></h5></li>
+       <li class="dropdown"><h5>Hi, <span><?php echo $fetch_info['name'] ?></span></h5></li>
           <li class="dropdown"><a href="#" data-toggle="dropdown"
-              class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="User-assests/img/user.png"
-                class="user-img-radious-style"> <span class="d-sm-none d-lg-inline-block"></span></a>
+              class="nav-link dropdown-toggle nav-link-lg nav-link-user">  <img alt="image" src="assets/img/download.png"
+                class="user-img-radious-style">  <span class="d-sm-none d-lg-inline-block"></span></a>
             <div class="dropdown-menu dropdown-menu-right pullDown">
               <div class="dropdown-title"><?php echo $fetch_info['name'] ?></div>
               <a href="profile.html" class="dropdown-item has-icon"> <i class="far
@@ -97,19 +96,24 @@ if($email != false && $password != false){
             </a>
           </div>
           <ul class="sidebar-menu">
-            <li class="menu-header">Admin</li>
+            <li class="menu-header"><?php echo $fetch_info['name'] ?> YOU ARE <?php echo $fetch_info['status'] ?></li>
             <li class="dropdown active">
-              <a href="user-dashboard.php" class="nav-link"><i data-feather="monitor"></i><span>Admin Dashboard</span></a>
+              <a href="user-dashboard.php" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
             </li>
             <li class="dropdown ">
-              <a href="registeredusers" class="nav-link"><i data-feather="activity"></i><span>Total Registered Users</span></a>
+              <a href="investmentp.php" class="nav-link"><i data-feather="activity"></i><span>Invest</span></a>
             </li>
-         
+         <!-- https://commerce.coinbase.com/charges/W3922MVH -->
             <li class="dropdown">
-              <a href="transaction.php" class="menu-toggle nav-link has-dropdown"><i data-feather="bar-chart"></i><span>Profile</span></a>
+              <a href="transaction.php" class="menu-toggle nav-link has-dropdown"><i data-feather="bar-chart"></i><span>Investment Plans</span></a>
+              <ul class="dropdown-menu">
+                <li><a class="nav-link" href="basic.php">Basic</a></li>
+                <li><a class="nav-link" href="standard.php">Standard</a></li>
+                <li><a class="nav-link" href="unlimited.php">Unlimited</a></li>
+              </ul>
             </li>
             <li class="dropdown ">
-              <a href="transaction.php" class="nav-link"><i data-feather="maximize-2"></i><span>User Details</span></a>
+              <a href="uer-profile.php" class="nav-link"><i data-feather="maximize-2"></i><span>Profile</span></a>
             </li>
             <li class="dropdown ">
               <a href="withdrawal.php" class="nav-link"><i data-feather="trending-down"></i><span>Withdrawal</span></a>
@@ -121,51 +125,86 @@ if($email != false && $password != false){
           </ul>
         </aside>
       </div>
-<div class="main-content">
-<div class="container-fluid">
+      <!-- Main Content -->
+     <style>
+     .profile__img{
+         width:100px;
+         height:100px;
+         border-radius:50em;
+         padding:20px;
+         margin:40px;
+     }
+     .profile__img img{
+         width:80px;
+         align-self:center;
 
-<!-- DataTales Example -->
-<div class="card shadow mb-4">
-    <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary"> Pay Profit </h6>
-    </div>
-    <div class="card-body">
-    <?php
+     }
 
-$query = "SELECT * from usertable  WHERE id='$id'"; 
-// $query = "SELECT * FROM register";
-$query_run = mysqli_query($con, $query);
+        .profile__details{
+            /* text-align:center; */
+        }
 
-                        if(mysqli_num_rows($query_run) > 0)        
-                        {
-                            while($row = mysqli_fetch_assoc($query_run))
-                            {
-                        ?>
-                            <tr>
-                               
 
-                                <td>
-                                    <form action="withdrawrequest.php" method="post">
-                                        <input type="hidden" class="form-control" name="edit_id" value="<?php echo $row['id']; ?>">
-                                        <button type="submit" name="withdrawal" class="btn btn-success"> EDIT</button>
-                                    </form>
-                                </td>
-                            </tr>
-                        <?php
-                            } 
-                        }
-                        else {
-                            echo "No Record Found";
-                        }
-                        ?>
-                    </tbody>
-                </table>
-    </div>
-</div>
-</div>
+        .profile__details ul li{
+            display: inline;
+            /* text-align:center; */
+            margin:20px;
+            text-transform:capitalize;
+            color: #1b76c0;;
+        }
+     </style>
+      <div class="main-content">
+        <section class="section">
+          <div class="row ">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="card">
+                <div class="card-statistic-4">
+                  <div class="align-items-center justify-content-between">
+                    <div class="row ">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pr-0 pt-3">
+                        <div class="card-content">
+                         <div class="profile__img align-items-center justify-content-between">
+                         <img alt="image" src="assets/img/download.png"
+                class="user-img-radious-style"> 
+                </div>
 
-</div>
+        <div class="profile__details">
+        
+        <ul>
+        <li><h5>Id No. : <?php echo $fetch_info['id']?></h5></li>
+        <li><h5>Name : <?php echo $fetch_info['name']?></h5></li>
+        <li><h5>Email : <?php echo $fetch_info['email']?></h5></li>
+        <li><h5>Country : <?php echo $fetch_info['country']?></h5></li>
+        <li><h5>Phone : <?php echo $fetch_info['phoneNumber']?></h5></li>
+        <li><h5>Wallet Address : <?php echo $fetch_info['waddress']?></h5></li>
+        <li><h5>Total Amount : $<?php echo $fetch_info['investmentamount'] + $fetch_info['currentprice'] + $fetch_info['referralbonus'] ?></h5></li>
+      
+      </ul>
+        </div>
 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          
+            </div>
+            </div>
+          </div>
+         
+	<!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60771248067c2605c0c26977/1f38huruf';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
   <!-- General JS Scripts -->
   <script src="User-assests/js/app.min.js"></script>
   <!-- JS Libraies -->

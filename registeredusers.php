@@ -146,8 +146,8 @@ if($email != false && $password != false){
             </div>
             </div>
             <section class="section">
-  <p name="status"></p>
-  <p name="status_code"></p>
+  <!-- <p name="status"></p>
+  <p name="status_code"></p> -->
 
 <!-- DataTales Example -->
             <style>
@@ -235,7 +235,7 @@ $query_run = mysqli_query($con, $query);
                                 <td><?php  echo $row['status']; ?></td>
                                 <td><?php  echo $row['investmentamount']; ?></td>
                                 <td><?php  echo $row['currentprice']; ?></td>
-                                <td><?php  echo $row['referralbalance']; ?></td>
+                                <td><?php  echo $row['referralbonus']; ?></td>
                                 <td><?php  echo $row['totalbalance']; ?></td>
 
                                 <td>

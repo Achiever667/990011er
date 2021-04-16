@@ -69,7 +69,7 @@ if($email != false && $password != false){
         <ul class="navbar-nav navbar-right">
        <li class="dropdown"><h5>Hi, <span><?php echo $fetch_info['name'] ?></span></h5></li>
           <li class="dropdown"><a href="#" data-toggle="dropdown"
-              class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="User-assests/img/user.png"
+              class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="assets/img/download.png"
                 class="user-img-radious-style"> <span class="d-sm-none d-lg-inline-block"></span></a>
             <div class="dropdown-menu dropdown-menu-right pullDown">
               <div class="dropdown-title"><?php echo $fetch_info['name'] ?></div>
@@ -101,7 +101,7 @@ if($email != false && $password != false){
               <a href="user-dashboard.php" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
             </li>
             <li class="dropdown ">
-              <a href="invest.php" class="nav-link"><i data-feather="activity"></i><span>Invest</span></a>
+              <a href="investmentp.php" class="nav-link"><i data-feather="activity"></i><span>Invest</span></a>
             </li>
          
             <li class="dropdown">

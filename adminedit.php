@@ -2,7 +2,7 @@
 <?php
 if(isset($_POST['btn-save'])){
 if(count($_POST)>0) {
-mysqli_query($con,"UPDATE usertable set Id='5" . $_POST['Id'] . "', iamount='" . $_POST['cprice'] . "', rbonus='" . $_POST['tbalance'] . "', investmentamount='" . $_POST['iamount'] . "' ,email='" . $_POST['email'] . "' WHERE Id='" . $_POST['Id'] . "'");}
+mysqli_query($con,"UPDATE usertable set Id='$id" . $_POST['Id'] . "', iamount='" . $_POST['cprice'] . "', rbonus='" . $_POST['tbalance'] . "', investmentamount='" . $_POST['iamount'] . "' ,email='" . $_POST['email'] . "' WHERE Id='" . $_POST['Id'] . "'");}
 $message = "Record Modified Successfully";
 }
 $result = mysqli_query($con,"SELECT * FROM usertable WHERE Id='5" . $_GET['Id'] . "'");
@@ -136,7 +136,7 @@ if($email != false && $password != false){
 <!-- DataTales Example -->
 <div class="card shadow mb-4">
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary"> EDIT Admin Profile </h6>
+        <h6 class="m-0 font-weight-bold text-primary"> Pay Profit </h6>
     </div>
     <div class="card-body">
     <?php
@@ -165,6 +165,11 @@ if($email != false && $password != false){
                             <label>Investment Amount</label>
                             <input type="number" name="investmentamount" value="<?php echo $row['investmentamount'] ?>" class="form-control"
                                 placeholder="Enter Email">
+                        </div>
+                        <div class="form-group">
+                            <label>Referral Bonus</label>
+                            <input type="number" name="referralbonus" value="<?php echo $row['referralbonus'] ?>" class="form-control"
+                                placeholder="Referral Bonus">
                         </div>
                         <div class="form-group">
                             <label>Total Balance</label>

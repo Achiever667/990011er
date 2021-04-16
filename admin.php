@@ -101,7 +101,7 @@ if($email != false && $password != false){
               <a href="user-dashboard.php" class="nav-link"><i data-feather="monitor"></i><span>Admin Dashboard</span></a>
             </li>
             <li class="dropdown ">
-              <a href="registeredusers" class="nav-link"><i data-feather="activity"></i><span>Total Registered Users</span></a>
+              <a href="registeredusers.php" class="nav-link"><i data-feather="activity"></i><span>Total Registered Users</span></a>
             </li>
          
             <li class="dropdown">

@@ -100,23 +100,24 @@ if($email == false){
 						</div>
 					</div>
 					<!-- end col -->
+				
 					<div class="col-lg-7 col-md-12 col-sm-12 col-12">
 						<div class="header-info-box">
                             <div class="header-info-icon">
 								<i class="fa fa-envelope-open"></i>
 							</div>
 							<p>Email Us</p>
-                            <h6>info@yoursite.com</h6>
+                            <h6>info@connextinfo.com</h6>
                         </div>
 						<div class="header-info-box">
                             <div class="header-info-icon">
 								<i class="icofont icofont-phone"></i>
 							</div>
 							<p>Call Us</p>
-                            <h6>123-456-0975</h6>
+                            <h6>+1 724-638-7644</h6>
                         </div>
 						<div class="header-info-box">
-                            <a href="#" class="quote-btn">Get Started <i class="icofont icofont-caret-right"></i></a>
+                            <a href="login-user.php" class="quote-btn">Get Started <i class="icofont icofont-caret-right"></i></a>
                         </div>
 					</div>
 					<!-- end col -->
@@ -207,7 +208,18 @@ if($email == false){
             </div>
         </div>
     </div>
-    
+    	<!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60771248067c2605c0c26977/1f38huruf';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
 
 	<!-- Latest jQuery -->
     <script src="assets/js/jquery-2.2.4.min.js"></script>

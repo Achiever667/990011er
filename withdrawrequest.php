@@ -1,4 +1,13 @@
 <?php require_once "controllerUserData.php"; ?>
+<?php
+if(isset($_POST['btn-save'])){
+if(count($_POST)>0) {
+mysqli_query($con,"UPDATE usertable set Id='$id" . $_POST['Id'] . "', withdrawalAmount='" . $_POST['withdrawalAmount']."'");}
+$message = "Record Modified Successfully";
+}
+$result = mysqli_query($con,"SELECT * FROM usertable WHERE Id='$id" . $_GET['Id'] . "'");
+$row= mysqli_fetch_array($result);
+?>
 
 <?php 
 $email = $_SESSION['email'];
@@ -132,34 +141,35 @@ if($email != false && $password != false){
     <div class="card-body">
     <?php
 
-$query = "SELECT * from usertable  WHERE id='$id'"; 
-// $query = "SELECT * FROM register";
-$query_run = mysqli_query($con, $query);
+        if(isset($_POST['withrawalclick']))
+        {
+            // $id = $_POST['edit_id'];
+            
+            $query = "SELECT * FROM usertable WHERE id='$id' ";
+            $query_run = mysqli_query($con, $query);
 
-                        if(mysqli_num_rows($query_run) > 0)        
-                        {
-                            while($row = mysqli_fetch_assoc($query_run))
-                            {
-                        ?>
-                            <tr>
-                               
+            foreach($query_run as $row)
+            {
+                ?>
 
-                                <td>
-                                    <form action="withdrawrequest.php" method="post">
-                                        <input type="hidden" class="form-control" name="edit_id" value="<?php echo $row['id']; ?>">
-                                        <button type="submit" name="withdrawal" class="btn btn-success"> EDIT</button>
-                                    </form>
-                                </td>
-                            </tr>
-                        <?php
-                            } 
-                        }
-                        else {
-                            echo "No Record Found";
-                        }
-                        ?>
-                    </tbody>
-                </table>
+                    <form action="controllerUserData.php" method="POST">
+
+                        <input type="hidden" name="id" value="<?php echo $row['id'] ?>">
+
+                        <div class="form-group">
+                            <label>Total Balance</label>
+                            <input type="number" name="withdrawalAmount" value="<?php echo $row['withdrawalAmount'] ?>"
+                                class="form-control" placeholder=" ">
+                        </div>
+
+                        <a href="adminedit.php" class="btn btn-danger"> CANCEL </a>
+                        <button type="submit" name="withdrawclick" class="btn btn-primary"> Update </button>
+
+                    </form>
+                    <?php
+            }
+        }
+    ?>
     </div>
 </div>
 </div>
