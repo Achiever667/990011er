@@ -1,12 +1,12 @@
 <?php require_once "controllerUserData.php"; ?>
 <?php
-if(isset($_POST['btn-save'])){
-if(count($_POST)>0) {
-mysqli_query($con,"UPDATE usertable set Id='$id" . $_POST['Id'] . "', withdrawalAmount='" . $_POST['withdrawalAmount']."'");}
-$message = "Record Modified Successfully";
-}
-$result = mysqli_query($con,"SELECT * FROM usertable WHERE Id='$id" . $_GET['Id'] . "'");
-$row= mysqli_fetch_array($result);
+// if(isset($_POST['btn-save'])){
+// if(count($_POST)>0) {
+// mysqli_query($con,"UPDATE usertable set Id='$id" . $_POST['Id'] . "', withdrawalAmount='" . $_POST['withdrawalAmount']."'");}
+// $message = "Record Modified Successfully";
+// }
+// $result = mysqli_query($con,"SELECT * FROM usertable WHERE Id='$id" . $_GET['Id'] . "'");
+// $row= mysqli_fetch_array($result);
 ?>
 
 <?php 

@@ -98,20 +98,16 @@ if($email != false && $password != false){
           <ul class="sidebar-menu">
             <li class="menu-header">Admin</li>
             <li class="dropdown active">
-              <a href="user-dashboard.php" class="nav-link"><i data-feather="monitor"></i><span>Admin Dashboard</span></a>
+              <a href="admin.php" class="nav-link"><i data-feather="monitor"></i><span>Admin Dashboard</span></a>
             </li>
             <li class="dropdown ">
               <a href="registeredusers.php" class="nav-link"><i data-feather="activity"></i><span>Total Registered Users</span></a>
             </li>
-         
-            <li class="dropdown">
-              <a href="transaction.php" class="menu-toggle nav-link has-dropdown"><i data-feather="bar-chart"></i><span>Profile</span></a>
+            <li class="dropdown ">
+              <a href="userdetails.php" class="nav-link"><i data-feather="maximize-2"></i><span>User Details</span></a>
             </li>
             <li class="dropdown ">
-              <a href="transaction.php" class="nav-link"><i data-feather="maximize-2"></i><span>User Details</span></a>
-            </li>
-            <li class="dropdown ">
-              <a href="withdrawal.php" class="nav-link"><i data-feather="trending-down"></i><span>Withdrawal</span></a>
+              <a href="withdrwalrequests.php" class="nav-link"><i data-feather="trending-down"></i><span>Withdrawal Request</span></a>
             </li>
             <li class="dropdown">
               <a href="logout-user.php" class="menu"><i data-feather="log-out"></i><span>Logout</span></a>
@@ -132,7 +128,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content">
                           <h5 class="font-15">Current Amount</h5>
-                          <h2 class="mb-3 font-18"$>$258</h2>
+                          <h2 class="mb-3 font-18"$>$0</h2>
                           <p class="mb-0"><span class="col-green">Date : <?php echo " " . date("Y-m-d"); ?></span></p>
                         </div>
                       </div>
@@ -154,7 +150,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content">
                           <h5 class="font-15"> Current Invest</h5>
-                          <h2 class="mb-3 font-18">$1,287</h2>
+                          <h2 class="mb-3 font-18">$0</h2>
                           <p class="mb-0"><span class="col-green">Date : <?php echo " " . date("Y-m-d"); ?></span></p>
                         </div>
                       </div>
@@ -176,8 +172,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content">
                           <h5 class="font-15">Referral Balance</h5>
-                          <h2 class="mb-3 font-18">$128</h2>
-                          <!-- <p class="mb-0"><span class="col-green">Date : <?php echo " " . date("Y-m-d"); ?></span></p> -->
+                          <h2 class="mb-3 font-18">$0</h2>
                           <p class="mb-0"><span class="col-green">Date : <?php echo " " . date("Y-m-d"); ?></span></p>
 
                         </div>
@@ -200,7 +195,7 @@ if($email != false && $password != false){
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                         <div class="card-content">
                           <h5 class="font-15">Total Balance</h5>
-                          <h2 class="mb-3 font-18">$48,697</h2>
+                          <h2 class="mb-3 font-18">$0</h2>
                           <p class="mb-0"><span class="col-green">Date : <?php echo " " . date("Y-m-d"); ?></span></p>
                         </div>
                       </div>
@@ -214,26 +209,28 @@ if($email != false && $password != false){
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-sm-12 col-lg-12">
-              <div class="card ">
-                <div class="card-header">
-                  <h4>Mining Machine</h4>
-                  
-                </div>
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <img src="assets/img/minig machine.gif" alt="" style="width: 100%; height: 40vh;">
-                  </div>
-                </div>
-              </div>
+          </div>       
             </div>
             </div>
             </div>
           </div>
-         
+
+
+
+
+         <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/607990c2067c2605c0c314a8/1f3ddque5';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
   <!-- General JS Scripts -->
   <script src="User-assests/js/app.min.js"></script>
   <!-- JS Libraies -->
