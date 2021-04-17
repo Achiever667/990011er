@@ -45,7 +45,7 @@ if($email != false && $password != false){
 </head>
 
 <body>
-  <div class="loader"></div>
+<div class="loader"></div>
   <div id="app">
     <div class="main-wrapper main-wrapper-1">
       <div class="navbar-bg"></div>
@@ -67,7 +67,7 @@ if($email != false && $password != false){
           </ul>
         </div>
         <ul class="navbar-nav navbar-right">
-       <li class="dropdown"><h5>Welcome, <span>Admin</span></h5></li>
+       <li class="dropdown"><h5>Hi, <span>Admin</span></h5></li>
           <li class="dropdown"><a href="#" data-toggle="dropdown"
               class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="User-assests/img/user.png"
                 class="user-img-radious-style"> <span class="d-sm-none d-lg-inline-block"></span></a>
@@ -101,18 +101,15 @@ if($email != false && $password != false){
               <a href="admin.php" class="nav-link"><i data-feather="monitor"></i><span>Admin Dashboard</span></a>
             </li>
             <li class="dropdown ">
-              <a href="registeredusers" class="nav-link"><i data-feather="activity"></i><span>Total Registered Users</span></a>
-            </li>
-         
-            <li class="dropdown">
-              <a href="admin.php" class="menu-toggle nav-link has-dropdown"><i data-feather="bar-chart"></i><span>Profile</span></a>
+              <a href="registeredusers.php" class="nav-link"><i data-feather="activity"></i><span>Total Registered Users</span></a>
             </li>
             <li class="dropdown ">
               <a href="userdetails.php" class="nav-link"><i data-feather="maximize-2"></i><span>User Details</span></a>
             </li>
             <li class="dropdown ">
-              <a href="withdrawal.php" class="nav-link"><i data-feather="trending-down"></i><span>Withdrawal</span></a>
+              <a href="withdrwalrequests.php" class="nav-link"><i data-feather="trending-down"></i><span>Withdrawal Request</span></a>
             </li>
+            
             <li class="dropdown">
               <a href="logout-user.php" class="menu"><i data-feather="log-out"></i><span>Logout</span></a>
                 

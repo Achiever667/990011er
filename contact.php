@@ -450,7 +450,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 copyright-text text-center text-lg-right text-md-right">
-                        <p><a href="https://www.templateshub.net" target="_blank">Connext Coin Hub</a></p>
+                        <p><a href="index.php" target="_blank">Connext Coin Hub</a></p>
                     </div>
                 </div>
             </div>

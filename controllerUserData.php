@@ -38,7 +38,7 @@ if(isset($_POST['signup'])){
         $data_check = mysqli_query($con, $insert_data);
         if($data_check){
             
-            $to = $email;
+            $to = "$email";
             $subject = "Email Verification Code";
             $message = "Your verification code is $code";
             $sender = "From: kelechioleh@gmail.com";

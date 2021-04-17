@@ -208,7 +208,7 @@ if($email != false && $password != false){
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
                         <div class="banner-img">
-                        <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="invest.php"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
+                        <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="https://commerce.coinbase.com/checkout/3978f6d6-3119-4236-8bdb-6f783c59b397"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
                         </div>
                       </div>
                     </div>
@@ -231,7 +231,7 @@ if($email != false && $password != false){
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
                         <div class="banner-img">
-                        <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="invest.php"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
+                        <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="https://commerce.coinbase.com/checkout/4629df92-26e9-41fe-91ea-30408c96e8c4"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
                         </div>
                       </div>
                     </div>
@@ -252,7 +252,7 @@ if($email != false && $password != false){
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
                         <div class="banner-img">
-                        <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="invest.php"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
+                        <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="https://commerce.coinbase.com/checkout/220c95a1-c633-4de2-807a-7cb98c570474"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
                         </div>
                       </div>
                     </div>
@@ -273,7 +273,7 @@ if($email != false && $password != false){
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
                         <div class="banner-img">
-                        <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="invest.php"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
+                        <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="https://commerce.coinbase.com/checkout/7765d1cf-5936-4cba-be2b-245b0cefb00b"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
                         </div>
                       </div>
                     </div>
@@ -294,7 +294,7 @@ if($email != false && $password != false){
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-0">
                         <div class="banner-img">
-                        <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="invest.php"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
+                        <p class="mb-0"><span class="col-green">03%</span> Increase per day for 5 days <span><a href="https://commerce.coinbase.com/checkout/a53dd3f0-fded-4071-8bb4-e84fd0270fc3"><button class="form-control button col-purple">Buy Plan</button></a></span></p>
                         </div>
                       </div>
                     </div>     
@@ -303,7 +303,7 @@ if($email != false && $password != false){
               </div>
             </div>
           </div>
-          <p class="mb-0"> <span><a href="invest.php"><button class="form-group button col-purple">Other Amount</button></a></span></p>
+          <p class="mb-0"> <span><a href="otheramount.php"><button class="form-group button col-purple">Other Amount</button></a></span></p>
           <div class="col-12 col-sm-12 col-lg-12">
               <div class="card ">
                 <div class="card-header">

@@ -55,7 +55,7 @@ if($email != false && $password != false){
 </head>
 
 <body>
-  <div class="loader"></div>
+<div class="loader"></div>
   <div id="app">
     <div class="main-wrapper main-wrapper-1">
       <div class="navbar-bg"></div>
@@ -108,28 +108,27 @@ if($email != false && $password != false){
           <ul class="sidebar-menu">
             <li class="menu-header">Admin</li>
             <li class="dropdown active">
-              <a href="user-dashboard.php" class="nav-link"><i data-feather="monitor"></i><span>Admin Dashboard</span></a>
+              <a href="admin.php" class="nav-link"><i data-feather="monitor"></i><span>Admin Dashboard</span></a>
             </li>
             <li class="dropdown ">
-              <a href="registeredusers" class="nav-link"><i data-feather="activity"></i><span>Total Registered Users</span></a>
-            </li>
-         
-            <li class="dropdown">
-              <a href="transaction.php" class="menu-toggle nav-link has-dropdown"><i data-feather="bar-chart"></i><span>Profile</span></a>
+              <a href="registeredusers.php" class="nav-link"><i data-feather="activity"></i><span>Total Registered Users</span></a>
             </li>
             <li class="dropdown ">
-              <a href="transaction.php" class="nav-link"><i data-feather="maximize-2"></i><span>User Details</span></a>
+              <a href="userdetails.php" class="nav-link"><i data-feather="maximize-2"></i><span>User Details</span></a>
             </li>
             <li class="dropdown ">
-              <a href="withdrawal.php" class="nav-link"><i data-feather="trending-down"></i><span>Withdrawal</span></a>
+              <a href="withdrwalrequests.php" class="nav-link"><i data-feather="trending-down"></i><span>Withdrawal Request</span></a>
             </li>
+            
             <li class="dropdown">
               <a href="logout-user.php" class="menu"><i data-feather="log-out"></i><span>Logout</span></a>
-                
             </li>
           </ul>
         </aside>
-      </div>
+      </div>  
+
+
+
 <div class="main-content">
 <div class="container-fluid">
 

@@ -72,7 +72,7 @@ if($email != false && $password != false){
               class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="User-assests/img/user.png"
                 class="user-img-radious-style"> <span class="d-sm-none d-lg-inline-block"></span></a>
             <div class="dropdown-menu dropdown-menu-right pullDown">
-              <div class="dropdown-title"><?php echo $fetch_info['name'] ?></div>
+              <div class="dropdown-title">Admin</div>
               <a href="profile.html" class="dropdown-item has-icon"> <i class="far
 										fa-user"></i> Profile
               </a> <a href="timeline.html" class="dropdown-item has-icon"> <i class="fas fa-bolt"></i>
@@ -107,8 +107,9 @@ if($email != false && $password != false){
               <a href="userdetails.php" class="nav-link"><i data-feather="maximize-2"></i><span>User Details</span></a>
             </li>
             <li class="dropdown ">
-              <a href="withdrwalrequests.php" class="nav-link"><i data-feather="trending-down"></i><span>Withdrawal Request</span></a>
+              <a href="withdrwal.php" class="nav-link"><i data-feather="trending-down"></i><span>Withdrawal Request</span></a>
             </li>
+
             <li class="dropdown">
               <a href="logout-user.php" class="menu"><i data-feather="log-out"></i><span>Logout</span></a>
                 
